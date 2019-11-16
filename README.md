@@ -23,20 +23,19 @@ Una maquina virtual ejecuta por completo un SO invitado por lo que accede a mas 
 ```
 # Se actualizan los repositorios
 sudo yum update -y
-# Instalacion de de
+# Instalacion de dependencias
 sudo yum install -y yum-utils \
  device-mapper-persistent-data \
   lvm2
-  
+# Se agrega el repositorio 
 sudo yum-config-manager \
     --add-repo \
-   https://download.docker.com/linux/centos/docker-ce.repo
+    https://download.docker.com/linux/centos/docker-ce.repo
 ```
+Instalación   
   
-  
-```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNTg4NjgzLC0xNDg1MjUxNDA2LC0xOD
+eyJoaXN0b3J5IjpbLTMyMzQ2NDA2LC0xNDg1MjUxNDA2LC0xOD
 I1MjA3Nzc3XX0=
 -->
