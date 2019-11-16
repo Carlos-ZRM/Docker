@@ -35,13 +35,16 @@ sudo yum-config-manager \
 # Instalación de Docker
 sudo yum install docker-ce docker-ce-cli containerd.io
 
-#
+# Iniciar docker
+sudo systemctl enable docker
+sudo systemctl start docker
+
 
 ```
 
   
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTU1MTA5NzgsLTE0ODUyNTE0MDYsLT
-E4MjUyMDc3NzddfQ==
+eyJoaXN0b3J5IjpbNzAyMDQwOTE4LC0xNDg1MjUxNDA2LC0xOD
+I1MjA3Nzc3XX0=
 -->
