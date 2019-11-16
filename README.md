@@ -33,12 +33,15 @@ sudo yum-config-manager \
     https://download.docker.com/linux/centos/docker-ce.repo
 
 # Instalación de Docker
+sudo yum install docker-ce docker-ce-cli containerd.io
+
+#
 
 ```
 
   
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzg0MzEwMDQsLTE0ODUyNTE0MDYsLT
+eyJoaXN0b3J5IjpbLTE1MTU1MTA5NzgsLTE0ODUyNTE0MDYsLT
 E4MjUyMDc3NzddfQ==
 -->
