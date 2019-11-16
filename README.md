@@ -31,11 +31,14 @@ sudo yum install -y yum-utils \
 sudo yum-config-manager \
     --add-repo \
     https://download.docker.com/linux/centos/docker-ce.repo
+
+# Instalación de Docker
+
 ```
-Instalación   
+
   
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyMzQ2NDA2LC0xNDg1MjUxNDA2LC0xOD
-I1MjA3Nzc3XX0=
+eyJoaXN0b3J5IjpbLTIxMzg0MzEwMDQsLTE0ODUyNTE0MDYsLT
+E4MjUyMDc3NzddfQ==
 -->
