@@ -8,10 +8,10 @@ Docker es una plataforma para construir, compartir y desplegar aplicaciones con 
 - Acoplamiento isolado dentro del host
 
 ## Contenedores. 
-Los contenedores son procesos encapsulados dentro del sistema operativo. Esto permite que estén aislados de los demás procesos del SO . Cada contenedor tiene su propio sistema de archivos privado. Este sistema de archivos es proporcionado una Ima
+Los contenedores son procesos encapsulados dentro del sistema operativo. Esto permite que estén aislados de los demás procesos del SO . Cada contenedor tiene su propio sistema de archivos privado. Este sistema de archivos es proporcionado una Imagen.
 ## Imágenes
-Las imágenes 
+Las imágenes incluyen lo necesario para construir una aplicación : Codigo Binario, 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMjE4NjEzM119
+eyJoaXN0b3J5IjpbNjc5OTM0NzA3XX0=
 -->
