@@ -38,13 +38,15 @@ sudo yum install docker-ce docker-ce-cli containerd.io
 # Iniciar docker
 sudo systemctl enable docker
 sudo systemctl start docker
-
-
+sudo yum install epel-release
+sudo yum install -y python-pip
+sudo yum upgrade python*
+docker-compose version
 ```
 
   
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAyMDQwOTE4LC0xNDg1MjUxNDA2LC0xOD
-I1MjA3Nzc3XX0=
+eyJoaXN0b3J5IjpbLTU3OTA0OTExMSwtMTQ4NTI1MTQwNiwtMT
+gyNTIwNzc3N119
 -->
