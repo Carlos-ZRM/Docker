@@ -13,7 +13,7 @@ Los contenedores son procesos encapsulados dentro del sistema operativo. Esto pe
 ## Imágenes
 Las imágenes incluyen lo necesario para ejecutar una aplicación : código o archivos binarios, runtimes, dependencias y otros objetos. 
 ## Contenedores vs Maquinas Virtuales. 
-Una maquina virtual ejecuta por completo un SO 
+Una maquina virtual ejecuta por completo un SO invitado por lo que accede a mas recursos del host de los necesarios para la logica de la aplicación desplega
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwNjM3NDQ2MV19
+eyJoaXN0b3J5IjpbLTExMTYyMTMwOTddfQ==
 -->
