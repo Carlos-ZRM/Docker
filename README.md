@@ -22,6 +22,8 @@ Una maquina virtual ejecuta por completo un SO invitado por lo que accede a mas 
 
 ### cgroups
 ### systemd
+### Linux Namespaces
+
 ## Instalación en CentOS.
 ```
 # Se actualizan los repositorios
@@ -50,6 +52,6 @@ docker-compose version
   
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ4MDUzNzY2LDE5NTg0MTQzNSwtNTc5MD
-Q5MTExLC0xNDg1MjUxNDA2LC0xODI1MjA3Nzc3XX0=
+eyJoaXN0b3J5IjpbLTEyODUxNzk3NjUsMTk1ODQxNDM1LC01Nz
+kwNDkxMTEsLTE0ODUyNTE0MDYsLTE4MjUyMDc3NzddfQ==
 -->
