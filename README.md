@@ -1,6 +1,6 @@
 # Docker
 Docker es una plataforma para construir, compartir y desplegar aplicaciones con contenedores. 
--Flexible
+- Flexible
 - Ligeras
 - Portable 
 - Escalable 
@@ -47,6 +47,6 @@ docker-compose version
   
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3OTA0OTExMSwtMTQ4NTI1MTQwNiwtMT
-gyNTIwNzc3N119
+eyJoaXN0b3J5IjpbMTk1ODQxNDM1LC01NzkwNDkxMTEsLTE0OD
+UyNTE0MDYsLTE4MjUyMDc3NzddfQ==
 -->
