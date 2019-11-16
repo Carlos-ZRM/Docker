@@ -21,7 +21,15 @@ Una maquina virtual ejecuta por completo un SO invitado por lo que accede a mas 
 ![Imagen](https://www.docker.com/sites/default/files/d8/styles/large/public/2018-11/Docker-Website-2018-Diagrams-071918-V5_a-Docker-Engine-page-first-panel.png?itok=TFiL1wtt)
 ## Instalación en CentOS.
 
+```
+sudo yum update -y
+sudo yum install -y yum-utils \
+ device-mapper-persistent-data \
+  lvm2
+  
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODUyNTE0MDYsLTE4MjUyMDc3NzddfQ
-==
+eyJoaXN0b3J5IjpbLTY4MTc4MDg1MSwtMTQ4NTI1MTQwNiwtMT
+gyNTIwNzc3N119
 -->
