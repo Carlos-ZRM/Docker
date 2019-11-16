@@ -9,8 +9,9 @@ Docker es una plataforma para construir, compartir y desplegar aplicaciones con 
 
 ## Contenedores. 
 Los contenedores son procesos encapsulados dentro del sistema operativo. Esto permite que estén aislados de los demás procesos del SO . Cada contenedor tiene su propio sistema de archivos privado. 
-## Imagenes 
+## Imágenes
+Las imágenes 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjYxODM4MzldfQ==
+eyJoaXN0b3J5IjpbLTExNjI2NDkzNTRdfQ==
 -->
