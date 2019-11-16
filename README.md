@@ -17,8 +17,11 @@ Las imágenes incluyen lo necesario para ejecutar una aplicación : código o ar
 Una maquina virtual ejecuta por completo un SO invitado por lo que accede a mas recursos del host de los necesarios para la lógica de la aplicación desplegada. 
 ![Imagenes](https://docs.docker.com/images/Container%402x.png)
 
-## Arquitectura 
+## Arquitectura y tecnologías
 ![Imagen](https://www.docker.com/sites/default/files/d8/styles/large/public/2018-11/Docker-Website-2018-Diagrams-071918-V5_a-Docker-Engine-page-first-panel.png?itok=TFiL1wtt)
+
+### cgroups
+### systemd
 ## Instalación en CentOS.
 ```
 # Se actualizan los repositorios
@@ -47,6 +50,6 @@ docker-compose version
   
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1ODQxNDM1LC01NzkwNDkxMTEsLTE0OD
-UyNTE0MDYsLTE4MjUyMDc3NzddfQ==
+eyJoaXN0b3J5IjpbODQ4MDUzNzY2LDE5NTg0MTQzNSwtNTc5MD
+Q5MTExLC0xNDg1MjUxNDA2LC0xODI1MjA3Nzc3XX0=
 -->
