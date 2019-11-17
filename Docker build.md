@@ -31,6 +31,7 @@ La primera instrucción siempre es **From** esta instrucción indica la Imagen b
 		``` EXPOSE <port> [<port>/<protocol>...] ```
 - `FROM`  Indica la imagen base
  ``` FROM <image>[:<tag>] [AS <name>] ```
+ - `RUN` 
 
 ## Dockerbuild
 Docker build es el comando que construye las Imágenes de docker y crea el contexto necesario para  la creación del microservicio. 
@@ -46,6 +47,6 @@ docker build .
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwMTQyMjM5NSwtMTA5NTQ3NDA0NywxNz
-gxNDQyOTI5LC0xNjg4Mjg4MDQ3XX0=
+eyJoaXN0b3J5IjpbLTE5NTc5MzY1NDUsMjAwMTQyMjM5NSwtMT
+A5NTQ3NDA0NywxNzgxNDQyOTI5LC0xNjg4Mjg4MDQ3XX0=
 -->
