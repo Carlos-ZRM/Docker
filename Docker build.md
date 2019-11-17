@@ -3,10 +3,11 @@ Docker puede construir imágenes automáticamente leyendo las instrucciones de u
 **Nota** 
 Una imagen en Docker funciona creando capas o niveles de contenedores.  Una capa base puede ser la imagen de un sistema operativo u otra Imagen en el [Dockerhub ](https://hub.docker.com/),  regestry o en su equipo.
 
-Al desplegar el contenedor se  crea la ultima capa para la operación del microservicio. Esta
+Al desplegar el contenedor se  crea la ultima capa para la operación del microservicio. Esta capa puede modificarse y convertila en una Imagen. 
 
 
-### Formato
+### Instrucciones 
+#### Formato
 ```Dockerfile
 # Comment
 INSTRUCTION arguments
@@ -26,6 +27,5 @@ docker build .
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjY1NTQ0OTMsLTE2ODgyODgwNDddfQ
-==
+eyJoaXN0b3J5IjpbMTQxMjc1ODM2NCwtMTY4ODI4ODA0N119
 -->
