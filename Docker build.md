@@ -12,8 +12,19 @@ Al desplegar el contenedor se  crea la ultima capa para la operación del micros
 # Comment
 INSTRUCTION arguments
 ```
-La primera instrucción siempre es **From** esta instrucción indica el contene
+La primera instrucción siempre es **From** esta instrucción indica la Imagen base. 
 ### 
+##### Variables de entorno
+-   `ADD` Agrega 
+-   `COPY`
+-   `ENV`
+-   `EXPOSE`
+-   `FROM`
+-   `LABEL`
+-   `STOPSIGNAL`
+-   `USER`
+-   `VOLUME`
+-   `WORKDIR`
 ## Dockerbuild
 Docker build es el comando que construye las Imágenes de docker y crea el contexto necesario para  la creación del microservicio. 
 **Nota** El directorio en el que esta el Dockerfile es el directorio raíz que tomará Docker.  Por esto solo se puede tener un archivo con el nombre **Dockerfile** en un directorio. Usualmente los archivos o directorios que se necesitan copiar al contenedor desde el host están localizados en el directorio del dockerfile.
@@ -28,5 +39,5 @@ docker build .
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzY4MDgxMiwtMTY4ODI4ODA0N119
+eyJoaXN0b3J5IjpbNzYyNjg0MDkxLC0xNjg4Mjg4MDQ3XX0=
 -->
