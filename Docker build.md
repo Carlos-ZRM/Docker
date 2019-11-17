@@ -18,7 +18,7 @@ FROM <image>[:<tag>] [AS <name>]
 ```
 
 ##### Variables de entorno
--   `ADD` Copia nuevos archivos y directorios remo
+-   `ADD` Copia nuevos archivos y directorios remotos del host \<src\> hacía el destino dentro de\<dest\> 
 -   `COPY`
 -   `ENV`
 -   `EXPOSE`
@@ -42,5 +42,6 @@ docker build .
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2NzkxNTA0NywtMTY4ODI4ODA0N119
+eyJoaXN0b3J5IjpbLTE5NDEwNjU4NDQsLTE2ODgyODgwNDddfQ
+==
 -->
