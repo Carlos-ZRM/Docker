@@ -13,7 +13,10 @@ Al desplegar el contenedor se  crea la ultima capa para la operación del micros
 INSTRUCTION arguments
 ```
 La primera instrucción siempre es **From** esta instrucción indica la Imagen base. 
-### 
+```
+FROM <image>[:<tag>] [AS <name>]
+```
+
 ##### Variables de entorno
 -   `ADD` Agrega 
 -   `COPY`
@@ -39,5 +42,5 @@ docker build .
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzYyNjg0MDkxLC0xNjg4Mjg4MDQ3XX0=
+eyJoaXN0b3J5IjpbLTk0OTQ4NDI4LC0xNjg4Mjg4MDQ3XX0=
 -->
