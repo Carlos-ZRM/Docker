@@ -13,9 +13,7 @@ Al desplegar el contenedor se  crea la ultima capa para la operación del micros
 INSTRUCTION arguments
 ```
 La primera instrucción siempre es **From** esta instrucción indica la Imagen base. 
-```
-FROM <image>[:<tag>] [AS <name>]
-```
+
 
 ##### Variables de entorno
 -   `ADD` Copia nuevos archivos y directorios remotos del host \<src\> hacía el destino dentro del contenedor \<dest\> 
@@ -29,9 +27,7 @@ FROM <image>[:<tag>] [AS <name>]
 	ENV <key>=<value> ...
 	```
 -   `EXPOSE` La instrucción EXPOSE informa a Docker que el contenedor escucha en los puertos de red especificados en tiempo de ejecución. Puede especificar si el puerto escucha en TCP o UDP, y el valor predeterminado es TCP si no se especifica el protocolo.
-```
-EXPOSE <port> [<port>/<protocol>...]
-```
+		``` EXPOSE <port> [<port>/<protocol>...] ```
 -   `FROM`
 -   `LABEL`
 -   `STOPSIGNAL`
@@ -52,6 +48,6 @@ docker build .
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3MDkwNzg0NCwtMTA5NTQ3NDA0NywxNz
-gxNDQyOTI5LC0xNjg4Mjg4MDQ3XX0=
+eyJoaXN0b3J5IjpbMjQ2NTQ0ODgyLC0xMDk1NDc0MDQ3LDE3OD
+E0NDI5MjksLTE2ODgyODgwNDddfQ==
 -->
