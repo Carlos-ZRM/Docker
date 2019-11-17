@@ -20,8 +20,11 @@ FROM <image>[:<tag>] [AS <name>]
 ##### Variables de entorno
 -   `ADD` Copia nuevos archivos y directorios remotos del host \<src\> hacía el destino dentro del contenedor \<dest\> 
 -   `COPY` Copia nuevos archivos y directorios remotos del host \<src\> hacía el destino dentro del contenedor \<dest\> 
--   `ENV`
-- La instrucción ENV establece la variable de entorno <key> en el valor <value>. Este valor estará en el entorno para todas las instrucciones posteriores en la etapa de compilación y también puede reemplazarse en línea en muchas.
+-   `ENV`La instrucción ENV establece la variable de entorno <key> en el valor <value>. Este valor estará en el entorno para todas las instrucciones posteriores en la etapa de compilación.
+```
+ENV <key> <value>
+ENV <key>=<value> ...
+```
 -   `EXPOSE`
 -   `FROM`
 -   `LABEL`
@@ -43,6 +46,6 @@ docker build .
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY2MTcyMjIyLC0xMDk1NDc0MDQ3LDE3OD
-E0NDI5MjksLTE2ODgyODgwNDddfQ==
+eyJoaXN0b3J5IjpbMjA1NzIxMzIyOSwtMTA5NTQ3NDA0NywxNz
+gxNDQyOTI5LC0xNjg4Mjg4MDQ3XX0=
 -->
