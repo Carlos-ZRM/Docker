@@ -1,7 +1,11 @@
 ## Dockerfile
 Docker puede construir imágenes automáticamente leyendo las instrucciones de un Dockerfile. Un Dockerfile es un documento de texto que contiene todos los comandos que un usuario necesita llamar en una terminar para ensamblar una imagen.  Aquí están todas las instrucciones necesarias para crear la aplicación y desplegar el Host. Los usuarios de Docker Build pueden crear una compilación automatizada que ejecuta varias instrucciones de línea de comandos en sucesión.
 ### Formato
-
+Docker utiliza un archivo de clave valor   
+```Dockerfile
+# Comment
+INSTRUCTION arguments
+```
 
 ## Dockerbuild
 Docker build es el comando que construye las Imágenes de docker y crea el contexto necesario para  la creación del microservicio. 
@@ -17,5 +21,5 @@ docker build .
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMjA0NjYxOCwtMTY4ODI4ODA0N119
+eyJoaXN0b3J5IjpbMjAyNDgwMDA2NSwtMTY4ODI4ODA0N119
 -->
