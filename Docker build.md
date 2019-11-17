@@ -29,13 +29,9 @@ La primera instrucción siempre es **From** esta instrucción indica la Imagen b
 	```
 -   `EXPOSE` La instrucción EXPOSE informa a Docker que el contenedor escucha en los puertos de red especificados en tiempo de ejecución. Puede especificar si el puerto escucha en TCP o UDP, y el valor predeterminado es TCP si no se especifica el protocolo.
 		``` EXPOSE <port> [<port>/<protocol>...] ```
- `FROM`  Indica la imagen base
+- `FROM`  Indica la imagen base
  ``` FROM <image>[:<tag>] [AS <name>] ```
--   `LABEL`
--   `STOPSIGNAL`
--   `USER`
--   `VOLUME`
--   `WORKDIR`
+
 ## Dockerbuild
 Docker build es el comando que construye las Imágenes de docker y crea el contexto necesario para  la creación del microservicio. 
 **Nota** El directorio en el que esta el Dockerfile es el directorio raíz que tomará Docker.  Por esto solo se puede tener un archivo con el nombre **Dockerfile** en un directorio. Usualmente los archivos o directorios que se necesitan copiar al contenedor desde el host están localizados en el directorio del dockerfile.
@@ -50,6 +46,6 @@ docker build .
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNDQ2MDU2MiwtMTA5NTQ3NDA0NywxNz
+eyJoaXN0b3J5IjpbMjAwMTQyMjM5NSwtMTA5NTQ3NDA0NywxNz
 gxNDQyOTI5LC0xNjg4Mjg4MDQ3XX0=
 -->
