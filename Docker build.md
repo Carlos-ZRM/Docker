@@ -12,6 +12,7 @@ Al desplegar el contenedor se  crea la ultima capa para la operación del micros
 # Comment
 INSTRUCTION arguments
 ```
+Las instrucciones se ejecutan de forma secuencial, siendo la primera sentencia la primera en ejecutarse. 
 La primera instrucción siempre es **From** esta instrucción indica la Imagen base. 
 
 
@@ -28,7 +29,8 @@ La primera instrucción siempre es **From** esta instrucción indica la Imagen b
 	```
 -   `EXPOSE` La instrucción EXPOSE informa a Docker que el contenedor escucha en los puertos de red especificados en tiempo de ejecución. Puede especificar si el puerto escucha en TCP o UDP, y el valor predeterminado es TCP si no se especifica el protocolo.
 		``` EXPOSE <port> [<port>/<protocol>...] ```
--   `FROM`
+ `FROM`  Indica la imagen base
+ ``` FROM <image>[:<tag>] [AS <name>] ```
 -   `LABEL`
 -   `STOPSIGNAL`
 -   `USER`
@@ -48,6 +50,6 @@ docker build .
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ2NTQ0ODgyLC0xMDk1NDc0MDQ3LDE3OD
-E0NDI5MjksLTE2ODgyODgwNDddfQ==
+eyJoaXN0b3J5IjpbLTYzNDQ2MDU2MiwtMTA5NTQ3NDA0NywxNz
+gxNDQyOTI5LC0xNjg4Mjg4MDQ3XX0=
 -->
