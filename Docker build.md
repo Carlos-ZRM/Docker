@@ -28,7 +28,10 @@ FROM <image>[:<tag>] [AS <name>]
 	ENV <key> <value>
 	ENV <key>=<value> ...
 	```
--   `EXPOSE`
+-   `EXPOSE` La instrucción EXPOSE informa a Docker que el contenedor escucha en los puertos de red especificados en tiempo de ejecución. Puede especificar si el puerto escucha en TCP o UDP, y el valor predeterminado es TCP si no se especifica el protocolo.
+```
+EXPOSE <port> [<port>/<protocol>...]
+```
 -   `FROM`
 -   `LABEL`
 -   `STOPSIGNAL`
@@ -49,6 +52,6 @@ docker build .
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwOTE5OTk3OSwtMTA5NTQ3NDA0NywxNz
+eyJoaXN0b3J5IjpbMTA3MDkwNzg0NCwtMTA5NTQ3NDA0NywxNz
 gxNDQyOTI5LC0xNjg4Mjg4MDQ3XX0=
 -->
