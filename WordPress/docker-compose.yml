@@ -22,7 +22,7 @@
       volumes:
         - ~/wordpress/www/html:/var/www/html/:z
       ports:
-        - "80:80"
+        - "8081:80"
         - "443:443"
       restart: always
       environment:
@@ -37,7 +37,7 @@
         - db
       image: wordpress:latest
       ports:
-        - "8081:80"
+        - "8082:80"
         - "4433:443"
       restart: always
       environment:
@@ -64,7 +64,7 @@
       image: google/cadvisor:latest
       container_name: cadvisor
       ports:
-        - 8080:8080
+        - 8083:8080
       privileged: true
       volumes:
         - /:/rootfs:ro
