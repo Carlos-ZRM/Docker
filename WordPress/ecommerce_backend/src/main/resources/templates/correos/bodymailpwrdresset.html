@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"
+	xmlns:th="https://thymeleaf.org">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="Wundertec">
+<title>ECOMMERCE LA CASTELLANA - RESTABLECER CONTRASEÑA</title>
+</head>
+<body>
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" ></link>
+	<style>
+		body{font-family: 'Roboto', sans-serif;}
+		#tablaArticulos {border-collapse: collapse;border-style: hidden;}
+		#tablaArticulos td,th{border: 1px solid black;padding: 2px 2px;}
+	</style>
+	<table>
+		<tbody style="font-size: 13px;"> 
+			<tr>
+				<td align="center">
+					<img th:src="@{'https://s3.us-west-2.amazonaws.com/la-castellana-erp-development/Recursos/img/logo_2.png'}" style="width: 250px;"/>
+				</td>
+			</tr>
+			<tr><td><hr style="border: 1px solid #76122c;"/></td></tr>
+			<tr>
+				<td>
+					<p>Has solicitado restablecer tu contraseña de acceso para el Ecommerce de La Castellana.</p>
+					<p>Utiliza estos datos para ingresar y actualiza tu contraseña desde Mi Cuenta.</p>
+				</td>
+			</tr>
+			<tr>
+				<td align="center">
+					<br/>
+					<table>
+						<tr>
+							<td align="right"><b>USUARIO:</b></td>
+							<td th:utext="${correo}"> direccion </td>
+						</tr>
+						<tr>
+							<td align="right"><b>CONTRASEÑA:</b></td>
+							<td th:utext="${password}"> password </td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr><td><hr style="border: 1px solid #76122c;" /></td></tr>
+			<tr>
+				<td align="center">
+					<p style="font-size: 9px;">Este es un correo enviado automáticamente, por favor no lo responda.</p>
+				</td>
+			</tr>	
+		</tbody>			
+</body>
+</html>

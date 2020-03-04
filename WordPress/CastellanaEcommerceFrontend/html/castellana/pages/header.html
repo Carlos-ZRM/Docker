@@ -1,0 +1,56 @@
+<section>
+		<div class="container-fluid atencion">
+			<div class="row">
+				<div class="col-md-8">
+					<p>Teléfono: <a href="tel:+5556989890">(55)56989890</a></p>
+					<p><i class="fa fa-envelope"></i> <a href="mailto:info@lacastellana.com">info@lacastellana.com
+						</a>- <a href="mailto:castellanaonline@lacastellana.com">Ventas en línea:
+							castellanaonline@lacastellana.com</a></p>
+				</div>
+				<div class="col-md-4">
+					<div class="search-box">
+						<input class="main-search form-control" onfocus="this.value=''" id="busc" type="text"
+							placeholder="Buscar producto..." />
+						<button style="display: none;" class="search-button btn btn-success desplega-buscador"
+							id="enter-buscador"></button>
+					</div>
+					<div class="search-typeahead"></div>
+					<!--Cerrar buscador-->
+					<a href="#!"  onclick="clearFields()" class="cerrar-buscador">
+						<span>
+							x
+						</span>
+					</a>
+					<!--Cerrar buscador-->
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<div class="container-fluid">
+			<div class="main-content contenedor-buscador">
+				<div class="article-cards-container">
+				</div>
+				<div class="random-article">
+					<iframe src="" frameborder="0"></iframe>
+				</div>
+			</div>
+		</div>
+
+		<script id="article-template" type="text/x-handlebars-template">
+				<div class="article-card row">
+					<div class="col-md-5 col-6">
+						<img class="imagen-buscador" src="https://s3.amazonaws.com/ecommerceimg/1304_m1.jpeg">
+					</div>
+					<div class="col-md-7 col-6">
+						<p class="contente-buscador-producto">{{title}}</p>
+						<!-- <p>{{teaser}}</p> -->
+						<!-- <a href="{{link}}" target="_blank"> -->
+						<a href="detalle.html">	
+							<button class="btn btn-default articulo-buscador">Ver artículo</button>
+						</a>
+					</div>
+				</div>
+			</script>
+	</section>

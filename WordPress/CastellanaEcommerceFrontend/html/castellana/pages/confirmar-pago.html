@@ -1,0 +1,970 @@
+<!DOCTYPE html>
+
+	<head>
+    <title>Castellana</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<meta charset="utf-8">
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<!--SEO PACK-->
+        <meta name="description"  content="La Castellana es una empresa líder de México en difusión de la cultura del vino y la gastronomía." />
+        <link rel="canonical" href="https://www.lacastellana.com/" />
+        <meta property="og:title" content="La Castellana" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.lacastellana.com/" />
+        <meta property="og:image" content="../../../assets/images/meta.jpeg" /> 
+        <meta property="og:site_name" content="La Castellana" />
+        <meta property="og:description" content="La Castellana es una empresa líder de México en difusión de la cultura del vino y la gastronomía." />
+	    <meta name="author" content="WUNDERTEC / Isai Morales & Augusto GG" />
+		<link rel="shortcut icon" href="../../../assets/img/favicon.ico"/>
+		<link rel="stylesheet" href="../../../assets/lib/bootstrap/css/bootstrap.css" type="text/css"> 
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" type="text/css"> 
+		<!--Animacion-->
+		<link rel="stylesheet" href="../../../assets/css/animate.css">
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.3/css/swiper.min.css">
+		<link rel="stylesheet" type="text/css" href="../../../assets/css/base.css">
+        <link rel="stylesheet" type="text/css" href="../../../assets/css/slider-principal.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css">
+        <!--Estilos-->
+        <link rel="stylesheet" href="../typeahead-custom.css"> 
+		<link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+		<link rel="stylesheet" href="../../../assets/style.css">
+		<link rel="stylesheet" href="../../../assets/css/responsive.css">
+		<link rel="stylesheet" href="../../../assets/css/menu.css">
+		<link rel="stylesheet" href="../../../assets/css/responsive.css">
+		<!--FONTS-->
+		<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900" rel="stylesheet">
+
+	 <!-- Global site tag (gtag.js) - Google Analytics -->
+	 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143336244-1"></script>
+	 <script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	  gtag('config', 'UA-143336244-1');
+	 </script>
+    	<!--Start of Tawk.to Script-->
+	<script type="text/javascript">
+		var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+		(function () {
+			var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+			s1.async = true;
+			s1.src = 'https://embed.tawk.to/5d8901cac22bdd393bb759f4/default';
+			s1.charset = 'UTF-8';
+			s1.setAttribute('crossorigin', '*');
+			s0.parentNode.insertBefore(s1, s0);
+		})();
+	</script>
+	<!--End of Tawk.to Script-->
+    </head>
+
+    <!--Preloader-->
+    <div class="preloader content-preloader valign-wrap">
+        <div class="valign-form center">
+            <div>
+                <img width="300px;" src="../../../assets/images/logo-vino.png" alt="">
+            </div>
+            <div>
+                <img width="100px" src="../../../assets/images/loader.gif" alt="">
+            </div>
+        </div>	
+    </div>
+    <!--Preloader-->
+
+	<body>
+		<header>
+            <section>
+                <div class="container-fluid atencion">
+                    <div class="row">
+                        <div class="col-md-6 hiden-xs">
+                            <p>Teléfono: <a href="tel:+5556989890">(55)56989890</a></p>
+                            <p><i class="fa fa-envelope"></i> <a href="mailto:info@lacastellana.com">info@lacastellana.com
+                                </a> <a class="hiden-sm" href="mailto:castellanaonline@lacastellana.com">- Ventas en línea:
+                                    castellanaonline@lacastellana.com</a></p>
+                        </div>
+                        
+                        <div class="col-md-6">
+                            <div class="row">
+                                <div class="col-md-5 align-right hiden-xs">
+                                    <a href="catalogo.html" >
+                                        <!-- <img class="boton-catalogo" src="../../../assets/images/boton-catalogo.png"> -->
+                                        <div class="boton-catalogo"> 
+                                            <img src="../../../assets/images/file.png" alt=""> <span>Catálogo 2019</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-md-7">
+                                <!--            <div id="the-basics" class="input-group">
+                                    <input type="text" class="form-control" placeholder="Buscar Artículo" aria-describedby="basic-addon2">
+                                    <input class="typeahead form-control" type="text" placeholder="Buscar Artículo" style="width: 100%;">
+                                </div>-->
+                                <div class="search-box">
+                                        <input class="main-search form-control" onfocus="this.value=''" id="busc" type="text" placeholder="Buscar producto..." onclick="javascript: limpia(this);" onBlur="javascript: verifica(this);" />
+                                        <button style="display: none;" class="search-button btn btn-success desplega-buscador" id="enter-buscador" ></button>
+                                    </div>
+                                    <div class="search-typeahead"></div>
+                                    <!--Cerrar buscador-->
+                                    <a href="#!"  onclick="clearFields()" class="cerrar-buscador">
+                                        <span>
+                                            x
+                                        </span>
+                                    </a>
+                                    <!--Cerrar buscador-->
+                                </div>
+                            </div>						
+                        </div>					
+                    </div>
+                </div>
+            </section>
+    
+            <section>
+                <div class="container-fluid">
+                    <div class="main-content contenedor-buscador">
+                        <div class="article-cards-container">
+                        </div>
+                        <div class="random-article">
+                            <iframe src="" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                </div>
+    
+                <script id="article-template" type="text/x-handlebars-template">
+                    <div class="article-card row">
+                        <div class="col-md-5 col-6">
+                            <img class="imagen-buscador" src="https://s3.amazonaws.com/ecommerceimg/1304_m1.jpeg">
+                        </div>
+                        <div class="col-md-7 col-6">
+                            <p class="contente-buscador-producto">{{title}}</p>
+                            <!-- <p>{{teaser}}</p> -->
+                            <!-- <a href="{{link}}" target="_blank"> -->
+                            <a href="detalle.html">	
+                                <button class="btn btn-default articulo-buscador">Ver artículo</button>
+                            </a>
+                        </div>
+                    </div>
+                </script>
+            </section>
+    
+            <section class="navigation">
+                <div class="nav-container">
+                    <div class="brand">
+                        <a class="logo-1" href="index.html">
+                            <img src="../../../assets/images/logo-vino.png" alt="">
+                        </a>
+                        <a class="logo-2" href="index.html">
+                            <img src="../../../assets/images/logo-min.png" alt="">
+                        </a>
+                    </div>
+                    <nav class="content-nav nav">
+                        <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
+                        <ul class="nav-list despleg ul">
+                            <li>
+                                <a href="index.html">Inicio</a>
+                            </li>
+                            <li>
+                                <a href="#!">Vinos</a>
+                                <ul class="nav-dropdown nav-dropdown-close">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                                            <li>
+                                                <a href="#!" class="btn-categoria" data-idcategoria="10" data-idaniada="0">Blanco</a>
+                                            </li>
+                                            <li>
+                                                <a href="#!" class="btn-categoria" data-idcategoria="16" data-idaniada="0">Cava</a>
+                                            </li>
+                                            <li>
+                                                <a href="#!" class="btn-categoria" data-idcategoria="18" data-idaniada="0">Champagne</a>
+                                            </li>
+                                            <li>
+                                                <a href="#!" class="btn-categoria" data-idcategoria="34" data-idaniada="0">Espumoso</a>
+                                            </li>
+                                            <li>
+                                                <a href="#!" class="btn-categoria" data-idcategoria="36" data-idaniada="0">Generoso</a>
+                                            </li>
+                            
+                                        </div>
+                                        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                                            <!-- <li>
+                                                                                <a href="#!" class="btn-categoria" data-idcategoria="40" data-idaniada="0">Jerez</a>
+                                                                            </li> -->
+                                            <li>
+                                                <a href="#!" class="btn-categoria" data-idcategoria="48" data-idaniada="0">Oporto</a>
+                                            </li>
+                                            <li>
+                                                <a href="#!" class="btn-categoria" data-idcategoria="58" data-idaniada="0">Rosado</a>
+                                            </li>
+                                            <li>
+                                                <a href="#!" class="btn-categoria" data-idcategoria="63" data-idaniada="0">Sidra</a>
+                                            </li>
+                                            <li>
+                                                <a href="#!" class="btn-categoria" data-idcategoria="68" data-idaniada="0">Tinto</a>
+                                            </li>
+                                        </div>
+                                        <div class="col-md-4 imagen-megamenu">
+                                            <img src="../../../assets/images/vino.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#!">Destilados y Licores</a>
+                                <ul class="nav-dropdown nav-dropdown-close">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                                            <li>
+                                                <a href="#!" class="btn-categoria" data-idcategoria="5" data-idaniada="0">Aguardiente</a>
+                                            </li>
+                                            <li>
+                                                <a href="#!" class="btn-categoria" data-idcategoria="7" data-idaniada="0">Anís</a>
+                                            </li>
+                                            <li>
+                                                <a href="#!" class="btn-categoria" data-idcategoria="8" data-idaniada="0">Aperitivo</a>
+                                            </li>
+                                            <li>
+                                                <a href="#!" class="btn-categoria" data-idcategoria="9" data-idaniada="0">Armagnac</a>
+                                            </li>
+                                            <li>
+                                                <a href="#!" class="btn-categoria" data-idcategoria="12" data-idaniada="0">Brandy</a>
+                                            </li>
+                                            <li><a href="#">Calvados</a></li>
+                                            <li>
+                                                <a href="#!" class="btn-categoria" data-idcategoria="21" data-idaniada="0">Cognac</a>
+                                            </li>
+                                            <li>
+                                                <a href="#!" class="btn-categoria" data-idcategoria="37" data-idaniada="0">Ginebra</a>
+                                            </li>
+                            
+                                        </div>
+                                        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                                            <li>
+                                                <a href="#!" class="btn-categoria" data-idcategoria="46" data-idaniada="0">Licor</a>
+                                            </li>
+                                            <li>
+                                                <a href="#!" class="btn-categoria" data-idcategoria="51" data-idaniada="0">Pisco</a>
+                                            </li>
+                                            <li>
+                                                <a href="#!" class="btn-categoria" data-idcategoria="56" data-idaniada="0">Rompope</a>
+                                            </li>
+                                            <li>
+                                                <a href="#!" class="btn-categoria" data-idcategoria="57" data-idaniada="0">Ron</a>
+                                            </li>
+                                            <li>
+                                                <a href="#!" class="btn-categoria" data-idcategoria="59" data-idaniada="0">Sake</a>
+                                            </li>
+                                            <li>
+                                                <a href="#!" class="btn-categoria" data-idcategoria="64" data-idaniada="0">Sotol</a>
+                                            </li>
+                                            <li>
+                                                <a href="#!" class="btn-categoria" data-idcategoria="70" data-idaniada="0">Vodka</a>
+                                            </li>
+                                            <li>
+                                                <a href="#!" class="btn-categoria" data-idcategoria="71" data-idaniada="0">Whisky</a>
+                                            </li>
+                                        </div>
+                                        <div class="col-md-4 imagen-megamenu">
+                                            <img src="../../../assets/images/vodka.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#!">Tequila y Mezcal</a>
+                                <ul class="nav-dropdown nav-dropdown-close">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                                            <li>
+                                                <a href="#!" class="btn-categoria" data-idcategoria="67" data-idaniada="437">Tequila Añejo</a>
+                                            </li>
+                                            <li>
+                                                <a href="#!" class="btn-categoria" data-idcategoria="67" data-idaniada="63">Tequila Blanco</a>
+                                            </li>
+                                            <li>
+                                                <a href="#!" class="btn-categoria" data-idcategoria="67" data-idaniada="435">Tequila Cristalino</a>
+                                            </li>
+                                            <li>
+                                                <a href="#!" class="btn-categoria" data-idcategoria="67" data-idaniada="365">Tequila Reposado</a>
+                                            </li>
+                                        </div>
+                                        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                                            <li>
+                                                <a href="#!" class="btn-categoria" data-idcategoria="47" data-idaniada="437">Mezcal Añejo</a>
+                                            </li>
+                                            <li>
+                                                <a href="#!" class="btn-categoria" data-idcategoria="47" data-idaniada="239">Mezcal Jóven</a>
+                                            </li>
+                                            <li>
+                                                <a href="#!" class="btn-categoria" data-idcategoria="47" data-idaniada="365">Mezcal Reposado</a>
+                                            </li>
+                                        </div>
+                                        <div class="col-md-4 imagen-megamenu">
+                                            <img src="../../../assets/images/tequila.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </ul>
+                            </li>
+                            <li>
+                                <a class="drop-gourmet" href="#!">Gourmet</a>
+                                <ul class="nav-dropdown mega-gourmet">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <li>
+                                                <a href="#!">Aceites de Oliva y Vinagres</a>
+                                            </li>
+                                            <li>
+                                                <a href="#!">Bacalao y Caviar</a>
+                                            </li>
+                                            <li>
+                                                <div class="megadropdown ddmenu">
+                                                    <span>Condimentos y Especias <i class="fa fa-sort-down"></i></span>
+                                                    <ul>
+                                                        <li><a href="#">Azafrán</a></li>
+                                                        <li><a href="#">Pimiento de la Vera</a></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="megadropdown ddmenu">
+                                                    <span>Conservas de Mar <i class="fa fa-sort-down"></i></span>
+                                                    <ul>
+                                                        <li><a href="#">Anguas Auténticas</a></li>
+                                                        <li><a href="#">Atún</a></li>
+                                                        <li><a href="#">Bereberechos</a></li>
+                                                        <li><a href="#">Bonito del Norte</a></li>
+                                                        <li><a href="#">Chipirones</a></li>
+                                                        <li><a href="#">Mejillones</a></li>
+                                                        <li><a href="#">Sardinas</a></li>
+                                                        <li><a href="#">Ostiones Ahumados</a></li>
+                                                        <li><a href="#">Pulpo</a></li>
+                                                        <li><a href="#">Sardinas</a></li>
+                                                        <li><a href="#">Ventresca</a></li>
+                                                        <li><a href="#">Zamburiñas</a></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="megadropdown ddmenu">
+                                                    <span>Conservas de Tierra <i class="fa fa-sort-down"></i></span>
+                                                    <ul>
+                                                        <li><a href="#">Aceitunas</a></li>
+                                                        <li><a href="#">Ajos</a></li>
+                                                        <li><a href="#">Alcachofas</a></li>
+                                                        <li><a href="#">Alcaparras</a></li>
+                                                        <li><a href="#">Alubias</a></li>
+                                                        <li><a href="#">Espárragos</a></li>
+                                                        <li><a href="#">Garbanzos</a></li>
+                                                        <li><a href="#">Guindillas</a></li>
+                                                        <li><a href="#">Judías Verdes</a></li>
+                                                        <li><a href="#">Lentejas</a></li>
+                                                        <li><a href="#">Patatas</a></li>
+                                                        <li><a href="#">Pimientos Piquillo</a></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <a href="#!">Infusiones, Té y Café</a>
+                                            </li>
+                                            <li>
+                                                <div class="megadropdown ddmenu">
+                                                    <span>Jamones y Embutidos <i class="fa fa-sort-down"></i></span>
+                                                    <ul>
+                                                        <li><a href="#">Chistorra</a></li>
+                                                        <li><a href="#">Chorizo Ibérico</a></li>
+                                                        <li><a href="#">Fuet</a></li>
+                                                        <li><a href="#">Jamones Ibéricos</a></li>
+                                                        <li><a href="#">Jamones Serranos</a></li>
+                                                        <li><a href="#">Lomo Ibérico</a></li>
+                                                        <li><a href="#">Morcilla</a></li>
+                                                        <li><a href="#">Salchichon</a></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <a href="#!">Mermeladas Finas</a>
+                                            </li>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <li>
+                                                <a href="#!"><span>Pan Artesanal</span></a>
+                                            </li>
+                                            <li>
+                                                <a href="#!"><span>Pastas Italianas</span></a>
+                                            </li>
+                                            <li>
+                                                <a href="#!"><span>Pimientos del Padr&oacute;n</span></a>
+                                            </li>
+                                            <li>
+                                                <a href="#!">Patés Finos y Foie Gras</a>
+                                            </li>
+                                            <li>
+                                                <div class="megadropdown ddmenu">
+                                                    <span>Quesos <i class="fa fa-sort-down"></i></span>
+                                                    <ul>
+                                                        <li><a href="#">Cabrales</a></li>
+                                                        <li><a href="#">Fondue</a></li>
+                                                        <li><a href="#">Grana Padano</a></li>
+                                                        <li><a href="#">Gruyere</a></li>
+                                                        <li><a href="#">Idiazábal</a></li>
+                                                        <li><a href="#">Manchego Español</a></li>
+                                                        <li><a href="#">Parmigiano Reggiano</a></li>
+                                                        <li><a href="#">Roquefort</a></li>
+                                                        <li><a href="#">Torta de Casar</a></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <a href="#!">Salsa y Aderezos</a>
+                                            </li>
+                                            <li>
+                                                <div class="megadropdown ddmenu">
+                                                    <span>Turrones y Dulces Finos <i class="fa fa-sort-down"></i></span>
+                                                    <ul>
+                                                        <li><a href="#">Alfajores</a></li>
+                                                        <li><a href="#">Chocolates Finos</a></li>
+                                                        <li><a href="#">Marrons Glacées</a></li>
+                                                        <li><a href="#">Mazapanes Españoles</a></li>
+                                                        <li><a href="#">Polvorones Españoles</a></li>
+                                                        <li><a href="#">Turrones</a></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <a href="#!">Yerba Mate</a>
+                                            </li>
+                                        </div>
+                                    </div>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#!">Copas y Accesorios</a>
+                                <ul class="nav-dropdown megamenu-accesorio">
+                                    <div class="row">
+                                        <div class="col-lg-7 col-md-6 col-sm-6 col-12">
+                                            <li>
+                                                <div class="megadropdown ddmenu">
+                                                    <span>Accesorios para vino <i class="fa fa-sort-down"></i></span>
+                                                    <ul>
+                                                        <li><a href="#">Conservadores de Vino</a></li>
+                                                        <li><a href="#">Cortagotas</a></li>													
+                                                        <li><a href="#">Descorchadores</a></li>													
+                                                        <li><a href="#">Termómetros</a></li>													
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="megadropdown ddmenu">
+                                                    <span>Copas <i class="fa fa-sort-down"></i></span>
+                                                    <ul>
+                                                        <li><a href="#">Copas Riedel</a></li>
+                                                        <li><a href="#">Copas Sloval (Bohemia)</a></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="megadropdown ddmenu">
+                                                    <span>Decantadores <i class="fa fa-sort-down"></i></span>
+                                                    <ul>
+                                                        <li><a href="#">Decantadores Riedel</a></li>
+                                                        <li><a href="#">Decantadores Slovak (Bohemia)</a></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            
+                                            <li>
+                                                <a href="#!">Paelleras</a>
+                                            </li>
+                                        </div>
+                                        <div class="col-lg-5 col-md-6 col-sm-6 col-12 imagen-megamenu">
+                                            <img src="../../../assets/images/vino.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#!" class="btn-categoria" data-idcategoria="75">Canastas navideñas</a>
+                            </li>
+                            <li class="unlogged">
+                                <a href="login.html">Iniciar Sesión</a>
+                            </li>
+                            <li class="unlogged">
+                                <a href="registro.html">Registrarse</a>
+                            </li>
+                            <li class="logged" style="display: none;">
+                                <a href="cuenta.html">Mi Cuenta</a>
+                            </li>
+                            <li class="logged" style="display: none;">
+                                <a href="#" class="btn-logout">Cerrar Sesión</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </section>
+        </header>
+    
+        <!--Content carro de compras-->
+        <div class="top-nav">
+            <div class="fixed-menu">
+                <button class="menu-open boton-cart" aria-label="open menu">
+                    <img src="../../../assets/images/shopping-bag.png" alt="">
+                    <div class="shop-qty">0</div>
+                </button>
+            </div>
+        </div>
+        <div class="top-nav">
+            <div class="menu-wrapper">
+                <button class="menu-close" aria-label="close menu">✕</button>
+                <div id="carrito-scroll" class="custom-scroll-div" style="">
+                    <table id="carritoTable">
+                        <tbody style="font-size: 13px;">
+                            <tr>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="containe col-md-12 col-12 top-50" style="padding: 0px;">
+                    <div class="row">
+                        <div class="col-md-4 col-12 text-center align-self-center bottom-total">
+                            TOTAL <span id="total-carrito">$940.00</span>
+                        </div>
+                        <div class="col-md-3 col-6 text-center">
+                            <a href="confirmar-compra.html" class="btn btn btn-success"
+                                style="border-radius: 0px;width: 100%;">Pagar</a>
+                        </div>
+                        <div class="col-md-5 col-6 text-center">
+                            <a href="categoria.html" class="btn btn btn-success"
+                                style="border-radius: 0px;width: 100%;">Seguir Comprando</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Content carro de compras-->
+        	<!--Toast no hay productos-->
+	<div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-delay="2000" style="position: absolute; top: 1rem; right: 1rem;">
+		<div class="toast-header">		
+			<strong class="mr-auto">La Castellana</strong>		
+		</div>
+		<div class="toast-body">
+			¡No hay productos en el carrito!
+		</div>
+	</div>
+<!--Toast no hay producto-->
+
+	<!--BOTÓN CATÁLOGO-->
+	<div>
+		<a href="catalogo.html" >
+			<img class="clearHeader" src="../../../assets/images/catalogo-boton.png">
+		</a>	
+	</div>
+	<!--BOTÓN CATÁLOGO-->
+
+        <section>
+            <div class="container-fluid nopadding">
+                <div class="slide-sucursales valign-banner">
+                    <div class="valign">
+                        <p>
+                            Confirmación de pago
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <div class="container-fluid">
+                <div class="row top-50 bottom-50">
+                    <div class="col-md-12 flex-list" id="tablaProd">
+                        <!--Titulos Campos-->
+                        <ul class="titulos-guia">
+                            <li>
+                                Producto
+                            </li>
+                            <li>
+                                Nombre del producto
+                            </li>
+                            <li>
+                                Precio por unidad
+                            </li>
+                            <li>
+                                Cant.
+                            </li>
+                            <li>
+                                Total
+                            </li>
+                        </ul>
+                        <!--Titulos Campos-->
+                        <!--Producto-->
+                        <ul>
+                            <li>
+                                <img src="https://s3.amazonaws.com/ecommerceimg/3202_m1.jpeg" alt="">
+                            </li>
+                            <li>
+                                <p class="li-producto">
+                                    <span id="nombreProducto">VODKA ABSOLUT MANDARIN 750 ML.</span>
+                                </p>
+                                <p class="existecia">
+                                    <span id="idProductos">0123456789</span>
+                                </p>
+                                <p class="existecia">
+                                    <span id="existenciaProdcuto">En existencia</span>
+                                </p>
+                            </li>
+                            <li>
+                                <p class="li-precio">
+                                    <span id="precioProducto">$235.00</span>
+                                </p>    
+                            </li>
+                            <li>
+                                <p class="li-precio"> 
+                                    <span id="cantidadProducto">2</span>
+                                </p>
+                            </li>
+                            <li>
+                                <p class="li-total">
+                                    <span id="totalProducto">$470.00</span>
+                                </p>
+                            </li>
+                        </ul>
+                        <!--Producto-->
+                        <!--Producto-->
+                        <ul>
+                            <li>
+                                <img src="https://s3.amazonaws.com/ecommerceimg/1549_m1.jpeg" alt="">
+                            </li>
+                            <li>
+                                <p class="li-producto">
+                                    <span id="nombreProducto">LICOR JAGERMEISTER 750 ML</span>
+                                </p>
+                                <p class="existecia">
+                                    <span id="idProductos">0123456789</span>
+                                </p>
+                                <p class="existecia">
+                                    <span id="existenciaProdcuto">En existencia</span>
+                                </p>
+                            </li>
+                            <li>
+                                <p class="li-precio">
+                                    <span id="precioProducto">$304.00</span>
+                                </p>    
+                            </li>
+                            <li>
+                                <p class="li-precio"> 
+                                    <span id="cantidadProducto">1</span>
+                                </p>
+                            </li>
+                            <li>
+                                <p class="li-total">
+                                    <span id="totalProducto">$304.00</span>
+                                </p>
+                            </li>
+                        </ul>
+                        <!--Producto-->
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-12 flex-totales">
+                        <div class="row">
+                            <div class="col-lg-8 col-md-7 col-sm-12 col-12 top-10">
+                                <div class="descuentos-castellana">
+                                    <p>
+                                        <strong>Destinatario:</strong>
+                                    </p>
+                                    <p id="destinatarioDestinoE">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+                                        dolor. Aenean massa.
+                                    </p>
+                                    <p>
+                                        <strong>Dirección: </strong>
+                                    </p>
+                                    <p id="direccionDestinoE">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+                                        dolor. Aenean massa.
+                                    </p>
+                                </div>
+                                <div class="envios-free top-20">
+                                    <!-- <p>
+                                        <strong>Envió free</strong>
+                                    </p>
+                                    <p>
+                                        En la compra de $700.00 la castellana cubre el gasto de envió.
+                                    </p>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+                                    </p> -->
+                                    <p class="top-20">
+                                        <a href="categoria.html"><span class="boton-compras hover-ripple">Continuar comprando</span></a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-5 col-sm-12 col-12 top-10">
+                                <ul class="totales-pedido">
+                                    <li class="sub-total bottom-10">
+                                        <span class="left">Subtotal:</span> <span id="subtotalProducto"><strong>$774.00</strong></span>
+                                    </li>
+                                    <!-- <li class="envios-free bottom-10">
+                                        <span class="left">Descuento:</span> <span id="descuentoProdcuto"><strong>$00.00</strong></span>
+                                    </li> -->
+                                    <li class="sub-total bottom-10">
+                                        <span class="left">Envío:</span> <span id="envioProducto"><strong>Free</strong></span>
+                                    </li>
+                                    <li class="total-pedido bottom-10">
+                                        <span class="left">Total:</span> <span id="totalPedido"><strong>$774.00</strong></span>
+                                    </li>
+                                </ul>
+                                <p class="top-20">
+                                    <a href="calcular-envio.html"><span class="regresar-compra hvr-horizontal2">Regresar</span></a>
+                                    <a href="#!">
+                                        <span id="modal1" class="calcular-envio logo-mercado hvr-horizontal float-right" data-toggle="modal" data-target="#tarjeta">
+                                            Continuar <img src="../../../assets/images/pago.png" alt="">
+                                        </span>
+                                    </a>
+                                </p>
+
+                        
+                            <!-- Modal Tarjeta -->
+                            <div class="modal fade" id="tarjeta" tabindex="-1" role="dialog" aria-labelledby="tarjeta-label" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="tarjeta-label">Información de pago</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form action="" method="post" id="pay2" name="pay2">
+                                                    <input id="cardId" name="cardId" data-checkout='cardId' type="hidden" value="">
+                                                    <input id="ClientIdd" name="ClientIdd"  type="hidden" value="">
+                                                <div class="form-group">
+                                                    <label for="securityCode">Últimos 4 dígitos</label>
+                                                        <select name="first_six_digits" id="first_six_digits" data-checkout='first_six_digits' class="form-control">
+                                                        <option>****</option>
+                                                        <option>****</option>
+                                                        <option>****</option>
+                                                    </select>
+                                                </div>
+                                                <!-- <div class="form-group">
+                                                    <label for="meses">Meses:</label>
+                                                    <select name="instllmentss" id="instllmentss"  disabled="true" class="form-control">
+                                                        <option>1 mes</option>
+                                                        <option>2 meses</option>
+                                                        <option>3 meses</option>
+                                                        <option>6 meses</option>
+                                                        <option>9 meses</option>
+                                                        <option>12 meses</option>
+                                                        <option>18 meses</option>
+                                                    </select>
+                                                </div> -->
+                                                <div class="form-group">
+                                                    <label for="cvvv" class="col-sm-4 col-form-label">Código de seguridad:</label>
+                                                    <input type="text" id="cvvv" class="form-control" data-checkout="securityCode" placeholder="***" maxlength="4"/>
+                                                    <small id="digitosHelp" class="form-text text-muted">Últimos 3 números que estan al reverso </small>
+                                                </div>
+                                                <div class="form-row">
+                                                        <label for="inputCity"><p>Domicilio asociado con la tarjeta: </p></label>  
+                                                </div>
+                                                <div class="form-row">
+                                                    <div class="form-group col-md-6">
+                                                      <label for="inputCity">Calle</label>
+                                                      <input type="text" class="form-control" id="calleTarjetaA">
+                                                    </div>
+                                                    <div class="form-group col-md-3">
+                                                      <label for="inputZip">Numero</label>
+                                                      <input type="text" class="form-control" id="numeroTarjetaA">
+                                                    </div>
+                                                    <div class="form-group col-md-4">
+                                                      <label for="inputZip">C.P.</label>
+                                                      <input type="text" class="form-control" id="cpTarjetaA" maxlength="5">
+                                                    </div>
+                                                  </div>
+                                        </div>
+                                        <div class="modal-footer modal-foo-block">
+                                            <div class="row center" style="width: 100%;">
+                                                <div class="col-md-4 col-4">
+                                                    <button type="button" class="nueva-tarjeta" data-toggle="modal" data-target="#nueva-tarjeta">Nueva tarjeta</button>
+                                                </div>
+                                                <div class="col-md-4 col-4">
+                                                    <button type="button" class="cancelar-tarjeta" data-dismiss="modal">Cancelar</button>
+                                                </div>
+                                                <div class="col-md-4 col-4">
+                                                    <button id="btn-pago-mp2" type="submit" class="aceptar-direccion">Confirmar pago</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+
+
+                    
+
+                                <!-- Modal Tarjeta -->
+                                <!-- Modal Nueva Tarjeta -->
+                                <div class="modal fade" id="nueva-tarjeta" tabindex="-1" role="dialog" aria-labelledby="nueva-tarjeta-label" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="nueva-tarjeta-label">Información de pago</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <form action="" method="post" id="pay" name="pay">
+                                                    <div class="form-group">
+                                                        <label for="cardHolderName">Nombre del titular </label>
+                                                        <input type="text" class="form-control" id="cardholderName" data-checkout="cardholderName" aria-describedby="titularHelp" placeholder="">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="cardNumber">Número de tarjeta </label>
+                                                        <input type="text" class="form-control" id="cardNumber" data-checkout="cardNumber" aria-describedby="tarjetaHelp" placeholder="">
+                                                        <div class="col-sm-2">
+                                                            <span id='imgCard'></span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="securityCode">Código de seguridad</label>
+                                                        <input type="text" class="form-control" id="securityCode" data-checkout="securityCode" aria-describedby="codigoHelp" placeholder="">
+                                                        <span id = "securityLength"></span>
+                                                    </div>                            
+                                                    <div class="form-group">
+                                                        <label for="securityCode">Fecha de expiración</label>
+                                                        <div class="row">
+                                                            <div class="col">
+                                                                <select name ="cardExpirationMonth" class="form-control" id="cardExpirationMonth" data-checkout="cardExpirationMonth">
+                                                                    <option value="-1">Meses</option>
+                                                                    <option value="01">Enero</option>
+                                                                    <option value="02">Febrero</option>
+                                                                    <option value="03">Marzo</option>
+                                                                    <option value="04">Abril</option>
+                                                                    <option value="05"> Mayo</option>
+                                                                    <option value="06">Junio</option>
+                                                                    <option value="07">Julio</option>
+                                                                    <option value="08">Agosto</option>
+                                                                    <option value="09">Septiembre</option>
+                                                                    <option value="10">Octubre</option>
+                                                                    <option value="11">Noviembre</option>
+                                                                    <option value="12">Diciembre</option>
+                                                                </select>
+                                                            </div>
+                                                            <div class="col">
+                                                                <select optionkey="id" name="cardExpirationYear" id="cardExpirationYear" data-checkout="cardExpirationYear" class="form-control">
+                                                                    <option value="-1" selected="selected"> Año</option>
+                                                                    <option value="2020">2020</option>
+                                                                    <option value="2021">2021</option>
+                                                                    <option value="2022">2022</option>
+                                                                    <option value="2023">2023</option>
+                                                                    <option value="2024">2024</option>
+                                                                    <option value="2025">2025</option>
+                                                                    <option value="2026">2026</option>
+                                                                    <option value="2027">2027</option>
+                                                                    <option value="2028">2028</option>
+                                                                    <option value="2029">2029</option>
+                                                                    <option value="2030">2030</option>
+                                                                    <option value="2031">2031</option>
+                                                                    <option value="2032">2032</option>
+                                                                    <option value="2033">2033</option>
+                                                                    <option value="2034">2034</option>
+                                                                    <option value="2035">2035</option>
+                                                                    <option value="2036">2036</option>
+                                                                    <option value="2037">2037</option>
+                                                                    <option value="2038">2038</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group row">
+                                                        <label for="issuer" class="col-sm-4 banco-label col-form-label">Banco: </label>
+                                                        <div>
+                                                            <select id="issuer" name="issuer" class="form-control select-banco"></select>
+                                                        </div> 
+                                                    </div>
+                                                    <div class="form-row">
+                                                            <label for="inputCity"><p>Domicilio asociado con la tarjeta: </p></label>  
+                                                    </div>
+                                                    <div class="form-row">
+                                                        <div class="form-group col-md-6">
+                                                          <label for="inputCity">Calle</label>
+                                                          <input type="text" class="form-control" id="calleTarjeta">
+                                                        </div>
+                                                        <div class="form-group col-md-3">
+                                                          <label for="inputZip">Numero</label>
+                                                          <input type="text" class="form-control" id="numeroTarjeta">
+                                                        </div>
+                                                        <div class="form-group col-md-4">
+                                                          <label for="inputZip">C.P.</label>
+                                                          <input type="text" class="form-control" id="cpTarjeta" maxlength="5">
+                                                        </div>
+                                                      </div>
+                                                    <!-- <div class="form-group">
+                                                        <label for="banco">Banco</label>
+                                                        <select class="form-control" id="banco">
+                                                            <option>Sucursal</option>
+                                                            <option>Bancomer</option>
+                                                            <option>Santander</option>
+                                                            <option>Citibanamex</option>
+                                                            <option>Banorte</option>
+                                                            <option>HSBC</option>
+                                                            <option>Scotibank</option>
+                                                            <option>Banregio</option>
+                                                            <option>Banco Ahorro Famsa</option>
+                                                            <option>Mifel</option>
+                                                            <option>Inbursa</option>
+                                                            <option>Bajio</option>
+                                                            <option>Santander</option>
+                                                        </select>
+                                                    </div> -->
+                                                    <div class="form-group row" style="display: none">
+                                                        <label for="installments" class="col-sm-4 col-form-label text-right">Cuotas: </label>
+                                                        <div>
+                                                            <select id="installments" name="installments" class="form-control"></select>
+                                                        </div> 
+                                                    </div>
+                                                    <!-- <div class="form-group">
+                                                        <label for="cuotas">Cuotas</label>
+                                                        <select class="form-control" id="cuotas">
+                                                            <option>1 mes</option>
+                                                            <option>2 meses</option>
+                                                            <option>3 meses</option>
+                                                            <option>6 meses</option>
+                                                            <option>9 meses</option>
+                                                            <option>12 meses</option>
+                                                            <option>18 meses</option>
+                                                        </select>
+                                                    </div>-->
+                                                    <select id="doctype" data-checkout="docType" hidden=""></select>
+                                                    <input type="hidden" id="amount" name="amount"/>
+                                                </form>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="cancelar-tarjeta" data-dismiss="modal">Cancelar</button>
+                                                <button id="btn-pago-mp" type="submit" class="aceptar-direccion">Confirmar pago</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Modal Nueva Tarjeta -->
+                            
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        </section>
+        
+        <div include-html="footer.html"></div> 
+	
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script src="../../../assets/lib/bootstrap/js/bootstrap.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+		<script src="../../../assets/script/main.js"></script>
+        <script src="../../../assets/script/typeahead.bundle.min.js"></script>
+        <script src="../../../assets/lib/cart/imagesloaded.pkgd.min.js"></script>
+		<script src="../../../assets/lib/cart/TweenMax.min.js"></script>
+        <script src="../../../assets/lib/cart/demo.js"></script>
+        <script src="../../../assets/script/index.js"></script>
+        <script src="../../../assets/script/confirmar-pago.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
+        <script src="../../../assets/script/tarjetasAlmacenadas.js"></script>
+        <script src="../../../assets/script/checkoutPersonalizado.js"></script>
+        <script src="https://secure.mlstatic.com/sdk/javascript/v1/mercadopago.js" type="text/javascript"></script>
+
+        
+	</body>
+</html>
