@@ -1,0 +1,42 @@
+  version: '3.5'
+  services:
+    prometheus:
+      container_name: prometheus
+      image: prom/prometheus
+      ports:
+        - 9090:9090
+      command:
+        - --config.file=/etc/prometheus/prometheus.yml
+      volumes:
+        - ./prometheus.yml:/etc/prometheus/prometheus.yml:z
+      depends_on:
+        - cadvisor
+      links:
+        - cadvisor:cadvisor
+      networks:
+        - redes-network    
+    cadvisor:
+      image: google/cadvisor:latest
+      container_name: cadvisor
+      ports:
+        - 8083:8080
+      privileged: true
+      volumes:
+        - /:/rootfs:ro
+        - /var/run:/var/run:rw
+        - /sys:/sys:ro
+        - /var/lib/docker/:/var/lib/docker:ro
+      networks:
+        - redes-network
+      deploy:
+        resources:
+          limits:
+              cpus: '0.20'
+              memory: 100M
+          reservations:
+              cpus: '0.35'
+              memory: 200M
+
+  networks:
+    redes-network:
+        driver: bridge

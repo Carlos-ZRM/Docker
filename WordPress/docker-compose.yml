@@ -1,23 +1,23 @@
-  version: '3'
+  version: '3.5'
 
   services:
-    backend:
+    ecommerce_backend_pro:
       build : ./ecommerce_backend
-      container_name : ecommerce_backend
+      container_name : ecommerce_backend_pro
       ports:
         - "8087:8080"
       networks:
         - ecommerce_pro
-      restart: always
-    frontend:
+          # restart: always
+    pco_frontend_pro:
       build : ./CastellanaEcommerceFrontend
       container_name: pco_frontend_pro 
       ports: 
         - "8116:80"
       environment:
-        ENDPOINTS: /ecommerce_backend_pro=http://ecommerce_backend_pro:8080/lacastellana-ecommerce
-      depends_on:
-        - backend
+        ENDPOINTS: /ecommerce_backend_pro=http://localhost:8080/lacastellana-ecommerce
+        #depends_on:
+        #- backend
   networks:
     ecommerce_pro:
       driver: bridge

@@ -1,7 +1,7 @@
 //const $base_backend = `http://localhost/ecommerce_backend`; //LOCAL
 // const $base_backend = 'https://lacastellanatoqa.wundertec.com/ecommerce_backend'; //QA
 // const $base_backend = 'https://lacastellanatopreprod.wundertec.com/ecommerce_backend_pre'; //PREPRO
-const $base_backend = 'https://lacastellana.com/lacastellana-ecommerce'; //PRODUCCION
+const $base_backend = 'http://54.144.202.252:8087/lacastellana-ecommerce'; //PRODUCCION
 
 // const $base_backend = 'http://lacastellanaqa-112212876.us-east-1.elb.amazonaws.com/ecommerce_backend:8080';
 
