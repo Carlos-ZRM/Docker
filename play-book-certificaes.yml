@@ -1,0 +1,22 @@
+- hosts: qa_lacastellana
+  tasks:
+    - name: copy remote to file 
+      fetch:
+         src: /home/ansible/ansible.sh
+         dest: /home/ansible/Docker/
+         flat: yes
+    - name: openssl verify certificate
+      shell: openssl x509 -dates -noout < /etc/letsencrypt/live/lacastellanatoqa.wundertec.com/fullchain.pem | grep notBefore
+      become: yes
+      become_method: sudo
+      register: openssl
+    
+    - name: certbot renew certificate
+      shell: certbot certonly --nginx -n -m carlos.reyes@wundertec.com -d lacastellanatoqa.wundertec.com
+      become: yes
+      become_method: sudo
+      register: certbot 
+    - name: Debug
+      debug:  var=certbot.stdout_lines
+      debug:  var=certbot.stderr_lines
+      

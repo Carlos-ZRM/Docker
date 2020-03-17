@@ -1,8 +1,0 @@
-log.out*
-build/
-*.class
-*.sh
-bin/
-
-rebuild.sh
-.git/
