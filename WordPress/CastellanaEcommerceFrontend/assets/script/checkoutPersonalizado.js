@@ -11,9 +11,9 @@ $(document).ready(($) => {
     * Crendeciales MercadoPago
     */
     //SANDBOX LA CASTELLANA
-    //const PUBLIC_KEY_MP = "TEST-8a918572-ee18-4ae2-834b-13c44d77487d";
+    const PUBLIC_KEY_MP = "TEST-8a918572-ee18-4ae2-834b-13c44d77487d";
     //PRODUCCION LA CASTELLANA
-    const PUBLIC_KEY_MP = "APP_USR-e01eafd5-86f5-4092-a156-7ebb217a5e77";
+    //const PUBLIC_KEY_MP = "APP_USR-e01eafd5-86f5-4092-a156-7ebb217a5e77";
 
     Mercadopago.setPublishableKey(PUBLIC_KEY_MP);
 

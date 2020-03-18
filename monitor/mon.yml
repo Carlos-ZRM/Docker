@@ -5,13 +5,10 @@
       container_name: grafana
       ports:
          - "3000:3000"
-      links: 
-        - cadvisor:cadvisor
-        - prometheus:prometheus
       depends_on:
         - prometheus
-     #volumes:
-     #    - ./data/grafana:/var/lib/grafana:rw
+      volumes:
+         - ./data/grafana:/var/lib/grafana:rw
       environment:
          - GF_SECURITY_ADMIN_PASSWORD=admin
          - GF_USERS_ALLOW_SIGN_UP=false
