@@ -13,7 +13,13 @@ Docker es una plataforma para construir, compartir y desplegar aplicaciones con 
 ### Contenedores. 
 Los contenedores son procesos encapsulados dentro del sistema operativo. Esto permite que estén aislados de los demás procesos del Sistema operativo (SO) . Cada contenedor tiene su propio sistema de archivos , puertos, procesos, usuarios.
 
-###  Imágenes
+
+## Componentes Docker  
+
+![Docker](http://www.arquitectoit.com/images/dockers/arquitectura-docker.jpg) 
+
+
+##  Imágenes
 
 Las imágenes incluyen lo necesario para ejecutar una aplicación : código o archivos binarios, runtimes, dependencias y otros objetos. 
 Son construidas a partir de un archivo llamado **Dockerfile**. Este funciona como una plantilla que le indicara al contenedor todas las intrucciones necesarias para crearse y ejecutarse por primera vez  
@@ -35,6 +41,7 @@ RUN chmod a+x /usr/local/bin/spacewalk-postgres-entrypoint.sh
 ENTRYPOINT ["/usr/local/bin/spacewalk-postgres-entrypoint.sh"]
  
 ```
+## Contenedores 
 
 ### Contenedores vs Maquinas Virtuales. 
 Una maquina virtual ejecuta por completo un SO huesped por lo que accede a mas recursos del host de los necesarios para la lógica de la aplicación desplegada. 
@@ -42,6 +49,21 @@ Una maquina virtual ejecuta por completo un SO huesped por lo que accede a mas r
 
 ## Arquitectura y tecnologías
 ![Imagen](https://www.docker.com/sites/default/files/d8/styles/large/public/2018-11/Docker-Website-2018-Diagrams-071918-V5_a-Docker-Engine-page-first-panel.png?itok=TFiL1wtt)
+
+
+## Administración de Imagenes
+```console 
+
+# Descargar imagenes de un Regestry 
+docker pull ubuntu 
+
+# Construir imagenes predeterminadas
+docker build -f ./  
+
+# Listar imagenes 
+docker image ls 
+
+``` 
 
 ### cgroups
 ### systemd
@@ -72,6 +94,7 @@ sudo yum install -y python-pip
 sudo yum upgrade python*
 docker-compose version
 ```
+
 
   
 
