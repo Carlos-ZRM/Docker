@@ -34,8 +34,7 @@ COPY spacewalk-postgres-entrypoint.sh /usr/local/bin/spacewalk-postgres-entrypoi
 RUN chmod a+x /usr/local/bin/spacewalk-postgres-entrypoint.sh
 ENTRYPOINT ["/usr/local/bin/spacewalk-postgres-entrypoint.sh"]
  
-´´´ 
-
+```
 
 ### Contenedores vs Maquinas Virtuales. 
 Una maquina virtual ejecuta por completo un SO huesped por lo que accede a mas recursos del host de los necesarios para la lógica de la aplicación desplegada. 
