@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite errors="0" failures="1" hostname="localhost.localdomain" name="pytest" skipped="0" tests="2" time="0.694" timestamp="2020-09-01T21:17:22.404067"><testcase classname="test.TestSum" file="test.py" line="5" name="test_sum" time="0.004"></testcase><testcase classname="test.TestSum" file="test.py" line="8" name="test_sum_tuple" time="0.002"><failure message="AssertionError: 5 != 6 : Should be 6">self = &lt;test.TestSum testMethod=test_sum_tuple&gt;
+
+    def test_sum_tuple(self):
+&gt;       self.assertEqual(sum((1, 2, 2)), 6, &quot;Should be 6&quot;)
+E       AssertionError: 5 != 6 : Should be 6
+
+test.py:10: AssertionError</failure></testcase></testsuite></testsuites>

@@ -1,0 +1,110 @@
+// Variables
+JENKINS_AGENT                   ="jenkins-slave"
+
+GIT_KEY                         ="key-git"
+GIT_URL                         ="git@github.com:kevop-s/serverlessFormB.git"
+GIT_BRANCH                      ="master"
+GIT_PROJECT_NAME                ="serverlessformb"
+
+DOCKER_IMAGE                    ="jenkins-serverlessformb"
+
+SERVERLESSB_CONTAINER           ="serverles-back"
+SERVERLESSB_BACK_PORT           ="4444"
+SERVERLESSB_SMTP_PORT           ="465"
+SERVERLESSB_SMTP_HOST           ="smtp.gmail.com"
+SERVERLESSB_SMTP_USER           ="kevops97@gmail.com"
+SERVERLESSB_SMTP_PASS           ="thyqmjgwjvwimhlo"
+SERVERLESSB_SMTP_SERVICE        ="Gmail"
+
+EMAIL_TO                        ="kev.gomez97@hotmail.com"
+EMAIL_CC                        ="carloszrm90@gmail.com"
+
+// Deploy
+pipeline{
+    agent{
+        label "${JENKINS_AGENT}"
+    }
+    stages{
+        stage("Get code"){
+            steps{
+                sh """#!/bin/bash -x
+                    mkdir ${GIT_PROJECT_NAME}
+                """
+                dir("${GIT_PROJECT_NAME}"){
+                    git credentialsId: "${GIT_KEY}" , url: "${GIT_URL}", branch: "${GIT_BRANCH}"
+                }
+            }
+        }
+
+        stage("Create Dockerfile"){
+            steps{
+                sh """#!/bin/bash -x
+                cat<<-EOF > Dockerfile
+FROM node:12.18-stretch
+
+COPY ${GIT_PROJECT_NAME}/back /back/
+
+WORKDIR /back
+
+RUN npm install  
+
+EXPOSE 4444
+
+CMD npm start 
+EOF
+                """
+            }
+        }
+
+        stage("Build image"){
+            steps{
+                sh """#!/bin/bash -x
+                    docker build -t ${DOCKER_IMAGE} .
+                """
+            }
+        }
+
+        stage("Deploy container"){
+            steps{
+                sh """#!/bin/bash -x
+                docker rm -f ${SERVERLESSB_CONTAINER}
+
+                docker run -itd --name ${SERVERLESSB_CONTAINER} \
+                    -p ${SERVERLESSB_BACK_PORT}:${SERVERLESSB_BACK_PORT} \
+                    -v /etc/localtime:/etc/localtime:ro \
+                    -v /usr/share/zoneinfo:/usr/share/zoneinfo:ro \
+                    -e BACK_PORT=${SERVERLESSB_BACK_PORT} \
+                    -e SMTP_PORT=${SERVERLESSB_SMTP_PORT} \
+                    -e SMTP_HOST=${SERVERLESSB_SMTP_HOST} \
+                    -e SMTP_USER=${SERVERLESSB_SMTP_USER} \
+                    -e SMTP_PASS=${SERVERLESSB_SMTP_PASS} \
+                    -e SMTP_SERVICE=${SERVERLESSB_SMTP_SERVICE} \
+                    -e TZ=America/Mexico_City \
+                    ${DOCKER_IMAGE}
+                """
+            }
+        }
+
+        stage("Clean old image"){
+            steps{
+                sh """#!/bin/bash -x
+                docker system prune -f
+                """
+            }
+        }
+    }
+    post{
+        success{
+            mail to: "${EMAIL_TO}",
+            cc : "${EMAIL_CC}",
+            subject: "SUCCESSFUL: Deploy ${GIT_PROJECT_NAME}. Jenkins Example",
+            body: "El despliegue del proyecto ${GIT_PROJECT_NAME} se realizó satisfactoriamente.\n\nNombre del Job: ${env.JOB_NAME}\nNúmero de ejecución: ${env.BUILD_NUMBER}.\n"
+        }
+        failure{
+            mail to: "${EMAIL_TO}",
+            cc : "${EMAIL_CC}",
+            subject: "FAILURE: Deploy ${GIT_PROJECT_NAME}. Jenkins Example",
+            body: "Ocurrió un error en el despliegue del proyecto ${GIT_PROJECT_NAME}.\n\nNombre del Job: ${env.JOB_NAME}\nNúmero de ejecución: ${env.BUILD_NUMBER}.\n"
+        }
+    }
+}

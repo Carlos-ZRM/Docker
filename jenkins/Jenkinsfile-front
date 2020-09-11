@@ -1,0 +1,101 @@
+// Variables
+JENKINS_AGENT                   ="jenkins-slave"
+
+GIT_KEY                         ="key-git"
+GIT_URL                         ="git@github.com:kevop-s/serverlessFormF.git"
+GIT_BRANCH                      ="master"
+GIT_PROJECT_NAME                ="serverlessformf"
+
+DOCKER_IMAGE                    ="jenkins-serverlessformf"
+
+SERVERLESSF_CONTAINER           ="serverless-front"
+SERVERLESSF_PORT                ="3000"
+SERVERLESSF_REACT_APP_BACK_URL  ="https://back-mail.kmmx.kevops.xyz"
+
+EMAIL_TO                        ="kev.gomez97@hotmail.com"
+EMAIL_CC                        ="carloszrm90@gmail.com"
+
+// Deploy
+pipeline{
+    agent{
+        label "${JENKINS_AGENT}"
+    }
+    stages{
+        stage("Get code"){
+            steps{
+                sh """#!/bin/bash -x
+                    mkdir ${GIT_PROJECT_NAME}
+                """
+                dir("${GIT_PROJECT_NAME}"){
+                    git credentialsId: "${GIT_KEY}" , url: "${GIT_URL}", branch: "${GIT_BRANCH}"
+                }
+            }
+        }
+
+        stage("Create Dockerfile"){
+            steps{
+                sh """#!/bin/bash -x
+                cat<<-EOF > Dockerfile
+FROM node:12.18-stretch
+
+COPY ${GIT_PROJECT_NAME}/front /front/
+
+WORKDIR /front
+
+RUN npm install
+
+EXPOSE 3000
+
+CMD npm start
+EOF
+                """
+            }
+        }
+
+        stage("Build image"){
+            steps{
+                sh """#!/bin/bash -x
+                    docker build -t ${DOCKER_IMAGE} .
+                """
+            }
+        }
+
+        stage("Deploy container"){
+            steps{
+                sh """#!/bin/bash -x
+                docker rm -f ${SERVERLESSF_CONTAINER}
+
+                docker run -itd --name ${SERVERLESSF_CONTAINER} \
+                    -p ${SERVERLESSF_PORT}:3000 \
+                    -v /etc/localtime:/etc/localtime:ro \
+                    -v /usr/share/zoneinfo:/usr/share/zoneinfo:ro \
+                    -e REACT_APP_BACK_URL=${SERVERLESSF_REACT_APP_BACK_URL} \
+                    -e TZ=America/Mexico_City \
+                    ${DOCKER_IMAGE}
+                """
+            }
+        }
+
+        stage("Clean old image"){
+            steps{
+                sh """#!/bin/bash -x
+                docker system prune -f
+                """
+            }
+        }
+    }
+    post{
+        success{
+            mail to: "${EMAIL_TO}",
+            cc : "${EMAIL_CC}",
+            subject: "SUCCESSFUL: Deploy ${GIT_PROJECT_NAME}. Jenkins Example",
+            body: "El despliegue del proyecto ${GIT_PROJECT_NAME} se realizó satisfactoriamente.\n\nNombre del Job: ${env.JOB_NAME}\nNúmero de ejecución: ${env.BUILD_NUMBER}.\n"
+        }
+        failure{
+            mail to: "${EMAIL_TO}",
+            cc : "${EMAIL_CC}",
+            subject: "FAILURE: Deploy ${GIT_PROJECT_NAME}. Jenkins Example",
+            body: "Ocurrió un error en el despliegue del proyecto ${GIT_PROJECT_NAME}.\n\nNombre del Job: ${env.JOB_NAME}\nNúmero de ejecución: ${env.BUILD_NUMBER}.\n"
+        }
+    }
+}

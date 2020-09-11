@@ -1,0 +1,49 @@
+pipeline {
+    agent any
+    stages {
+        stage('Source') {
+            steps{
+                git 'https://github.com/Carlos-ZRM/AWS.git'
+        
+            }
+        }
+        stage('Build') {
+            steps {
+                echo 'Building..'
+                sh('''
+                echo  "#Hola mundo" > jenkins.md
+                ls
+                ''')
+            }
+        }
+        stage('Commt') {
+            steps {
+                echo 'Commit..'
+                sh('''
+                git config --global user.email "carloszrm90@gmail.com"
+                git config --global user.name "Carlos-ZRM"
+                git add --all
+                git commit -m "Jenkins"
+                ''')
+            }
+        }
+        stage('Push') {
+        environment { 
+            GIT_AUTH = credentials('005bebb9-b1e2-4ea9-aca5-35017b141e27') 
+        }
+        steps {
+            sh('''
+                echo 'git $GIT_AUTH_USR '
+                echo 'git2 $GIT_AUTH_PSW '
+                git config --local credential.helper "!f() { echo username=\\$GIT_AUTH_USR; echo password=\\$GIT_AUTH_PSW; }; f"
+                git push origin master
+            ''')
+        }
+    }
+        stage('Deploy') {
+            steps {
+                echo 'Deploying....'
+            }
+        }
+    }
+}
