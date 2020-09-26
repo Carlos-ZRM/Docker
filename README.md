@@ -11,6 +11,8 @@ Docker es una plataforma para construir, compartir y desplegar aplicaciones con 
 ## Introdución 
 
 ### Contenedores. 
+El término Contenedores de Linux denota un grupo de tecnologías que se utilizan para empaquetar y aislar aplicaciones, sus dependencias y sus tiempos de ejecución, de forma portátil, de modo que se pueda mover entre entornos conservando la funcionalidad completa.
+
 Los contenedores son procesos encapsulados dentro del sistema operativo. Esto permite que estén aislados de los demás procesos del Sistema operativo (SO) . Cada contenedor tiene su propio sistema de archivos , puertos, procesos, usuarios.
 
 
