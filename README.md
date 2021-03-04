@@ -8,6 +8,7 @@
 - introduccion a contenedores
 - volumenes
 - redes
+- Docker run 
 - 
 - Instalacion de Docker
 -  Nginx 
@@ -15,6 +16,9 @@
 # GCP y Cloud computing
 
 # Docker
+
+
+
 
 Docker es una plataforma para construir, compartir y desplegar aplicaciones con contenedores. 
 - Flexible
@@ -150,8 +154,8 @@ docker-compose version
   
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MDE2NjQwMiwxMDA0NTA1MTc3LDExMj
-QyMjU5NSwtMzE5NDU2NTM3LC0xMjg1MTc5NzY1LDE5NTg0MTQz
-NSwtNTc5MDQ5MTExLC0xNDg1MjUxNDA2LC0xODI1MjA3Nzc3XX
-0=
+eyJoaXN0b3J5IjpbLTExMDc1MDE3NzIsMTAwNDUwNTE3NywxMT
+I0MjI1OTUsLTMxOTQ1NjUzNywtMTI4NTE3OTc2NSwxOTU4NDE0
+MzUsLTU3OTA0OTExMSwtMTQ4NTI1MTQwNiwtMTgyNTIwNzc3N1
+19
 -->
