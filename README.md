@@ -3,8 +3,11 @@
 # Introducción a DevOPS
 - GItlab
 - Jenkins
-- 
+- Grafana, 
 # Introduccion a los contenedores
+- introduccion a contenedores
+- Instalacion de Docker
+
 # GCP y Cloud computing
 
 # Docker
@@ -143,7 +146,7 @@ docker-compose version
   
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMzEzMDk2NiwxMTI0MjI1OTUsLTMxOT
+eyJoaXN0b3J5IjpbMTAwNDUwNTE3NywxMTI0MjI1OTUsLTMxOT
 Q1NjUzNywtMTI4NTE3OTc2NSwxOTU4NDE0MzUsLTU3OTA0OTEx
 MSwtMTQ4NTI1MTQwNiwtMTgyNTIwNzc3N119
 -->
