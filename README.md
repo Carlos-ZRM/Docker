@@ -25,7 +25,7 @@
 - Desplegar contenedor python, node, java, ubuntu desde imagen base
 - Desplegar contenedor MySQL/SQL lite y 
 	- Ejecutar programas dentro de contenedores docker 
--  Desplegar Gitlab con docker
+-  Desplegar Gitlab con docker 
 
 
 Docker es una plataforma para construir, compartir y desplegar aplicaciones con contenedores. 
@@ -162,8 +162,9 @@ docker-compose version
   
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4NTExNDk0NCwtMTM0OTQ5Mjc1NCwxNj
-g3MTgzMTg4LDc2MzQ3MDk1NSwxMDA0NTA1MTc3LDExMjQyMjU5
-NSwtMzE5NDU2NTM3LC0xMjg1MTc5NzY1LDE5NTg0MTQzNSwtNT
-c5MDQ5MTExLC0xNDg1MjUxNDA2LC0xODI1MjA3Nzc3XX0=
+eyJoaXN0b3J5IjpbOTc2MzI2MjYsMTU4NTExNDk0NCwtMTM0OT
+Q5Mjc1NCwxNjg3MTgzMTg4LDc2MzQ3MDk1NSwxMDA0NTA1MTc3
+LDExMjQyMjU5NSwtMzE5NDU2NTM3LC0xMjg1MTc5NzY1LDE5NT
+g0MTQzNSwtNTc5MDQ5MTExLC0xNDg1MjUxNDA2LC0xODI1MjA3
+Nzc3XX0=
 -->
