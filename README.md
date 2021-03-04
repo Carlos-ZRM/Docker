@@ -29,9 +29,10 @@
 
 - 4.  Creacion de Docker multistage 
 	-  Agregar Stage
-- 5  Desplegar sitio web estatico con NGINX
--  Desplegar nginx ReverseProxy para servicios
+- 5.  Desplegar sitio web estatico con NGINX
 	- Desplegar sitio webestatico  con volumenes
+
+- 6.  Desplegar nginx ReverseProxy para servicios
 	- Crear imagen personalizada de NGINX/ Instalacion manual NGINX 
 
 - Desplegar contenedor MySQL/SQL lite permitiendo conexiones remotas
@@ -175,7 +176,7 @@ docker-compose version
   
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2ODgzNjM0OCwxMzg4MDk4ODgxLC0xND
+eyJoaXN0b3J5IjpbMTI5MTA4NjcyNCwxMzg4MDk4ODgxLC0xND
 YxMjMxNjMwLDE1ODUxMTQ5NDQsLTEzNDk0OTI3NTQsMTY4NzE4
 MzE4OCw3NjM0NzA5NTUsMTAwNDUwNTE3NywxMTI0MjI1OTUsLT
 MxOTQ1NjUzNywtMTI4NTE3OTc2NSwxOTU4NDE0MzUsLTU3OTA0
