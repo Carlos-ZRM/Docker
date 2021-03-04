@@ -33,14 +33,15 @@
 	- Desplegar sitio webestatico  con volumenes
 
 - 6.  Desplegar nginx ReverseProxy para servicios
-	- Crear imagen personalizada de NGINX/ Instalacion manual NGINX 
+	- Crear imagen personalizada de NGINX/ Instalacion compilada NGINX en Dockerfile
 
-- Desplegar contenedor MySQL/SQL lite permitiendo conexiones remotas
+- 7. Desplegar contenedor MySQL/SQL lite permitiendo conexiones remotas
 	- Hacer persistente las conexiones remotas a MySQL
 
-- Docker compose / Podman POD
+- 8. Docker compose / Podman POD
 	- Conectar Django/Flask y MySQL/SQLite
 	- Conectar con NGINX 
+- 9.  
 
 Docker es una plataforma para construir, compartir y desplegar aplicaciones con contenedores. 
 - Flexible
@@ -176,7 +177,7 @@ docker-compose version
   
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5MTA4NjcyNCwxMzg4MDk4ODgxLC0xND
+eyJoaXN0b3J5IjpbMTU4MjQ5MDI4NiwxMzg4MDk4ODgxLC0xND
 YxMjMxNjMwLDE1ODUxMTQ5NDQsLTEzNDk0OTI3NTQsMTY4NzE4
 MzE4OCw3NjM0NzA5NTUsMTAwNDUwNTE3NywxMTI0MjI1OTUsLT
 MxOTQ1NjUzNywtMTI4NTE3OTc2NSwxOTU4NDE0MzUsLTU3OTA0
