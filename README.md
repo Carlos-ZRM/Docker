@@ -27,6 +27,7 @@
 	- Ejecutar programas dentro de contenedores docker 
 -  Desplegar Gitlab con docker 
 - Creacion de Docker file para Flask/Django
+- Creacion de Docker multistage 
 - 
 
 Docker es una plataforma para construir, compartir y desplegar aplicaciones con contenedores. 
@@ -163,9 +164,9 @@ docker-compose version
   
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjEyMzE2MzAsMTU4NTExNDk0NCwtMT
-M0OTQ5Mjc1NCwxNjg3MTgzMTg4LDc2MzQ3MDk1NSwxMDA0NTA1
-MTc3LDExMjQyMjU5NSwtMzE5NDU2NTM3LC0xMjg1MTc5NzY1LD
-E5NTg0MTQzNSwtNTc5MDQ5MTExLC0xNDg1MjUxNDA2LC0xODI1
-MjA3Nzc3XX0=
+eyJoaXN0b3J5IjpbLTY3MTI2NjIzLC0xNDYxMjMxNjMwLDE1OD
+UxMTQ5NDQsLTEzNDk0OTI3NTQsMTY4NzE4MzE4OCw3NjM0NzA5
+NTUsMTAwNDUwNTE3NywxMTI0MjI1OTUsLTMxOTQ1NjUzNywtMT
+I4NTE3OTc2NSwxOTU4NDE0MzUsLTU3OTA0OTExMSwtMTQ4NTI1
+MTQwNiwtMTgyNTIwNzc3N119
 -->
