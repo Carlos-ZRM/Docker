@@ -26,7 +26,8 @@
 - Desplegar contenedor MySQL/SQL lite y 
 	- Ejecutar programas dentro de contenedores docker 
 -  Desplegar Gitlab con docker 
-
+- Creacion de Docker file para Flask/Django
+- 
 
 Docker es una plataforma para construir, compartir y desplegar aplicaciones con contenedores. 
 - Flexible
@@ -162,9 +163,9 @@ docker-compose version
   
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc2MzI2MjYsMTU4NTExNDk0NCwtMTM0OT
-Q5Mjc1NCwxNjg3MTgzMTg4LDc2MzQ3MDk1NSwxMDA0NTA1MTc3
-LDExMjQyMjU5NSwtMzE5NDU2NTM3LC0xMjg1MTc5NzY1LDE5NT
-g0MTQzNSwtNTc5MDQ5MTExLC0xNDg1MjUxNDA2LC0xODI1MjA3
-Nzc3XX0=
+eyJoaXN0b3J5IjpbLTE0NjEyMzE2MzAsMTU4NTExNDk0NCwtMT
+M0OTQ5Mjc1NCwxNjg3MTgzMTg4LDc2MzQ3MDk1NSwxMDA0NTA1
+MTc3LDExMjQyMjU5NSwtMzE5NDU2NTM3LC0xMjg1MTc5NzY1LD
+E5NTg0MTQzNSwtNTc5MDQ5MTExLC0xNDg1MjUxNDA2LC0xODI1
+MjA3Nzc3XX0=
 -->
