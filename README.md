@@ -41,7 +41,7 @@
 - 8. Docker compose / Podman POD
 	- Conectar Django/Flask y MySQL/SQLite
 	- Conectar con NGINX 
-- 9.  
+-  9. Entrypoint  
 
 Docker es una plataforma para construir, compartir y desplegar aplicaciones con contenedores. 
 - Flexible
@@ -177,7 +177,7 @@ docker-compose version
   
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4MjQ5MDI4NiwxMzg4MDk4ODgxLC0xND
+eyJoaXN0b3J5IjpbMTA0NTI3NDMzOCwxMzg4MDk4ODgxLC0xND
 YxMjMxNjMwLDE1ODUxMTQ5NDQsLTEzNDk0OTI3NTQsMTY4NzE4
 MzE4OCw3NjM0NzA5NTUsMTAwNDUwNTE3NywxMTI0MjI1OTUsLT
 MxOTQ1NjUzNywtMTI4NTE3OTc2NSwxOTU4NDE0MzUsLTU3OTA0
