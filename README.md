@@ -1,7 +1,6 @@
 # Temario DevOPS
-# Introducción a DevO
+# Introducción a DevOPS
 # Introduccion a los contenedores
-# Monitoring 
 
 # Docker
 
@@ -139,7 +138,7 @@ docker-compose version
   
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2Nzc0NzU2NywtMTI4NTE3OTc2NSwxOT
+eyJoaXN0b3J5IjpbLTMxOTQ1NjUzNywtMTI4NTE3OTc2NSwxOT
 U4NDE0MzUsLTU3OTA0OTExMSwtMTQ4NTI1MTQwNiwtMTgyNTIw
 Nzc3N119
 -->
