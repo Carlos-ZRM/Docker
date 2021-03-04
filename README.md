@@ -20,7 +20,7 @@
 # Practicas
 - Desplegar sitio web estatico con NGINX
 -  Desplegar nginx ReverseProxy para servicios
-	- Desplegar sitio web estatico con volumenes
+	- Desplegar sitio webestatico  con volumenes
 	- Crear imagen personalizada de NGINX/ Instalacion manual NGINX 
 - Desplegar contenedor python, node, java, ubuntu desde imagen base
 	- Ejecutar programas dentro de contenedores docker 
@@ -169,7 +169,7 @@ docker-compose version
   
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNjI3NTY1NSwtMTQ2MTIzMTYzMCwxNT
+eyJoaXN0b3J5IjpbMTM4ODA5ODg4MSwtMTQ2MTIzMTYzMCwxNT
 g1MTE0OTQ0LC0xMzQ5NDkyNzU0LDE2ODcxODMxODgsNzYzNDcw
 OTU1LDEwMDQ1MDUxNzcsMTEyNDIyNTk1LC0zMTk0NTY1MzcsLT
 EyODUxNzk3NjUsMTk1ODQxNDM1LC01NzkwNDkxMTEsLTE0ODUy
