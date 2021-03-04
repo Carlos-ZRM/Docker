@@ -1,3 +1,8 @@
+# Temario DevOPS
+# Introducción a DevO
+# Introduccion a los contenedores
+# Monitoring 
+
 # Docker
 
 Docker es una plataforma para construir, compartir y desplegar aplicaciones con contenedores. 
@@ -134,7 +139,7 @@ docker-compose version
   
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjM3Njk3NTgsLTEyODUxNzk3NjUsMT
-k1ODQxNDM1LC01NzkwNDkxMTEsLTE0ODUyNTE0MDYsLTE4MjUy
-MDc3NzddfQ==
+eyJoaXN0b3J5IjpbMTg2Nzc0NzU2NywtMTI4NTE3OTc2NSwxOT
+U4NDE0MzUsLTU3OTA0OTExMSwtMTQ4NTI1MTQwNiwtMTgyNTIw
+Nzc3N119
 -->
