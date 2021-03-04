@@ -22,8 +22,8 @@
 -  Desplegar nginx ReverseProxy para servicios
 	- Desplegar sitio web estatico con volumenes
 	- Crear imagen personalizada de NGINX/ Instalacion manual NGINX
-	- 
--  Desplegar 
+
+-  Desplegar GitLAB con docker
 
 
 Docker es una plataforma para construir, compartir y desplegar aplicaciones con contenedores. 
@@ -160,8 +160,8 @@ docker-compose version
   
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODQxOTk5MTQsNzYzNDcwOTU1LDEwMD
-Q1MDUxNzcsMTEyNDIyNTk1LC0zMTk0NTY1MzcsLTEyODUxNzk3
-NjUsMTk1ODQxNDM1LC01NzkwNDkxMTEsLTE0ODUyNTE0MDYsLT
-E4MjUyMDc3NzddfQ==
+eyJoaXN0b3J5IjpbMTY4NzE4MzE4OCw3NjM0NzA5NTUsMTAwND
+UwNTE3NywxMTI0MjI1OTUsLTMxOTQ1NjUzNywtMTI4NTE3OTc2
+NSwxOTU4NDE0MzUsLTU3OTA0OTExMSwtMTQ4NTI1MTQwNiwtMT
+gyNTIwNzc3N119
 -->
