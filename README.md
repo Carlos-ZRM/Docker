@@ -6,7 +6,11 @@
 - Grafana, 
 # Introduccion a los contenedores
 - introduccion a contenedores
+- volumenes
+- redes
+- 
 - Instalacion de Docker
+-  Nginx 
 
 # GCP y Cloud computing
 
@@ -146,7 +150,8 @@ docker-compose version
   
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwNDUwNTE3NywxMTI0MjI1OTUsLTMxOT
-Q1NjUzNywtMTI4NTE3OTc2NSwxOTU4NDE0MzUsLTU3OTA0OTEx
-MSwtMTQ4NTI1MTQwNiwtMTgyNTIwNzc3N119
+eyJoaXN0b3J5IjpbLTg0MDE2NjQwMiwxMDA0NTA1MTc3LDExMj
+QyMjU5NSwtMzE5NDU2NTM3LC0xMjg1MTc5NzY1LDE5NTg0MTQz
+NSwtNTc5MDQ5MTExLC0xNDg1MjUxNDA2LC0xODI1MjA3Nzc3XX
+0=
 -->
