@@ -10,7 +10,7 @@
 - redes
 - Docker run 
 - 
-- Instalacion de Docker
+- Instalacion de Docker 
 -  Nginx 
 
 # GCP y Cloud computing
@@ -19,6 +19,9 @@
 
 # Practicas
 - Desplegar sitio web estatico con NGINX
+-  Desplegar 
+	- Desplegar sitio web estatico con volumenes
+	- 
 -  Desplegar 
 
 
@@ -156,8 +159,8 @@ docker-compose version
   
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzYzNDcwOTU1LDEwMDQ1MDUxNzcsMTEyND
-IyNTk1LC0zMTk0NTY1MzcsLTEyODUxNzk3NjUsMTk1ODQxNDM1
-LC01NzkwNDkxMTEsLTE0ODUyNTE0MDYsLTE4MjUyMDc3NzddfQ
-==
+eyJoaXN0b3J5IjpbODgxMzYzMjY4LDc2MzQ3MDk1NSwxMDA0NT
+A1MTc3LDExMjQyMjU5NSwtMzE5NDU2NTM3LC0xMjg1MTc5NzY1
+LDE5NTg0MTQzNSwtNTc5MDQ5MTExLC0xNDg1MjUxNDA2LC0xOD
+I1MjA3Nzc3XX0=
 -->
