@@ -36,13 +36,13 @@
 - 7.  Desplegar nginx ReverseProxy para servicios
 	- Crear imagen personalizada de NGINX/ Instalacion compilada NGINX en Dockerfile
 
-- 7. Desplegar contenedor MySQL/SQL lite permitiendo conexiones remotas
+- 8. Desplegar contenedor MySQL/SQL lite permitiendo conexiones remotas
 	- Hacer persistente las conexiones remotas a MySQL
 
-- 8. Docker compose / Podman POD
+- 9. Docker compose / Podman POD
 	- Conectar Django/Flask y MySQL/SQLite
 	- Conectar con NGINX 
--  9. Entrypoint  SINGNALS
+-  10. Entrypoint  SINGNALS
 
 Docker es una plataforma para construir, compartir y desplegar aplicaciones con contenedores. 
 - Flexible
@@ -178,9 +178,9 @@ docker-compose version
   
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIxNTQxNjQ2LDEzODgwOTg4ODEsLTE0Nj
-EyMzE2MzAsMTU4NTExNDk0NCwtMTM0OTQ5Mjc1NCwxNjg3MTgz
-MTg4LDc2MzQ3MDk1NSwxMDA0NTA1MTc3LDExMjQyMjU5NSwtMz
-E5NDU2NTM3LC0xMjg1MTc5NzY1LDE5NTg0MTQzNSwtNTc5MDQ5
-MTExLC0xNDg1MjUxNDA2LC0xODI1MjA3Nzc3XX0=
+eyJoaXN0b3J5IjpbLTE0NTAwMDU0MzAsMTM4ODA5ODg4MSwtMT
+Q2MTIzMTYzMCwxNTg1MTE0OTQ0LC0xMzQ5NDkyNzU0LDE2ODcx
+ODMxODgsNzYzNDcwOTU1LDEwMDQ1MDUxNzcsMTEyNDIyNTk1LC
+0zMTk0NTY1MzcsLTEyODUxNzk3NjUsMTk1ODQxNDM1LC01Nzkw
+NDkxMTEsLTE0ODUyNTE0MDYsLTE4MjUyMDc3NzddfQ==
 -->
