@@ -21,7 +21,9 @@
 - 1. Desplegar contenedor python, node, java, ubuntu desde imagen base
 	- Ejecutar programas dentro de contenedores docker 
 	
--  2. Desplegar Gitlab con docker 
+- 2. Desplegar Gitlab con docker 
+- 3. Creacion de Docker file para Flask/Django
+- 4.  
 
 - Desplegar sitio web estatico con NGINX
 -  Desplegar nginx ReverseProxy para servicios
@@ -31,7 +33,6 @@
 - Desplegar contenedor MySQL/SQL lite permitiendo conexiones remotas
 	- Hacer persistente las conexiones remotas a MySQL
 
-- Creacion de Docker file para Flask/Django
 - Creacion de Docker multistage 
 - Docker compose / Podman POD
 	- Conectar Django/Flask y MySQL/SQLite
@@ -171,9 +172,9 @@ docker-compose version
   
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI4ODczNjYsMTM4ODA5ODg4MSwtMTQ2MT
-IzMTYzMCwxNTg1MTE0OTQ0LC0xMzQ5NDkyNzU0LDE2ODcxODMx
-ODgsNzYzNDcwOTU1LDEwMDQ1MDUxNzcsMTEyNDIyNTk1LC0zMT
-k0NTY1MzcsLTEyODUxNzk3NjUsMTk1ODQxNDM1LC01NzkwNDkx
-MTEsLTE0ODUyNTE0MDYsLTE4MjUyMDc3NzddfQ==
+eyJoaXN0b3J5IjpbMTkzNDkyMzIyOCwxMzg4MDk4ODgxLC0xND
+YxMjMxNjMwLDE1ODUxMTQ5NDQsLTEzNDk0OTI3NTQsMTY4NzE4
+MzE4OCw3NjM0NzA5NTUsMTAwNDUwNTE3NywxMTI0MjI1OTUsLT
+MxOTQ1NjUzNywtMTI4NTE3OTc2NSwxOTU4NDE0MzUsLTU3OTA0
+OTExMSwtMTQ4NTI1MTQwNiwtMTgyNTIwNzc3N119
 -->
