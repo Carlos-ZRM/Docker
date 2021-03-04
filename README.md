@@ -31,7 +31,8 @@
 -  Desplegar Gitlab con docker 
 - Creacion de Docker file para Flask/Django
 - Creacion de Docker multistage 
-- Docker compose / Podman 
+- Docker compose / Podman POD
+	- Conectar Django/Flask y MySQL/ 
 
 Docker es una plataforma para construir, compartir y desplegar aplicaciones con contenedores. 
 - Flexible
@@ -167,7 +168,7 @@ docker-compose version
   
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0Nzk3NDM2NywtMTQ2MTIzMTYzMCwxNT
+eyJoaXN0b3J5IjpbMTY4Mzg1NTY4MywtMTQ2MTIzMTYzMCwxNT
 g1MTE0OTQ0LC0xMzQ5NDkyNzU0LDE2ODcxODMxODgsNzYzNDcw
 OTU1LDEwMDQ1MDUxNzcsMTEyNDIyNTk1LC0zMTk0NTY1MzcsLT
 EyODUxNzk3NjUsMTk1ODQxNDM1LC01NzkwNDkxMTEsLTE0ODUy
