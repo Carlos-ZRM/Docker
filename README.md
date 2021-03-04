@@ -2,6 +2,7 @@
 
 # Introducción a DevOPS
 - GItlab
+- Jenkins
 - 
 # Introduccion a los contenedores
 # GCP y Cloud computing
@@ -142,7 +143,7 @@ docker-compose version
   
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNDIyNTk1LC0zMTk0NTY1MzcsLTEyOD
-UxNzk3NjUsMTk1ODQxNDM1LC01NzkwNDkxMTEsLTE0ODUyNTE0
-MDYsLTE4MjUyMDc3NzddfQ==
+eyJoaXN0b3J5IjpbMTEzMzEzMDk2NiwxMTI0MjI1OTUsLTMxOT
+Q1NjUzNywtMTI4NTE3OTc2NSwxOTU4NDE0MzUsLTU3OTA0OTEx
+MSwtMTQ4NTI1MTQwNiwtMTgyNTIwNzc3N119
 -->
