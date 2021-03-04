@@ -9,7 +9,7 @@
 - volumenes
 - redes
 - Docker run 
-- 
+- Dockerfile
 - Instalacion de Docker 
 -  Nginx 
 
@@ -23,7 +23,7 @@
 	- Desplegar sitio web estatico con volumenes
 	- Crear imagen personalizada de NGINX/ Instalacion manual NGINX
 
--  Desplegar GitLAB con docker
+-  Desplegar Gitlab con docker
 
 
 Docker es una plataforma para construir, compartir y desplegar aplicaciones con contenedores. 
@@ -160,8 +160,8 @@ docker-compose version
   
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NzE4MzE4OCw3NjM0NzA5NTUsMTAwND
-UwNTE3NywxMTI0MjI1OTUsLTMxOTQ1NjUzNywtMTI4NTE3OTc2
-NSwxOTU4NDE0MzUsLTU3OTA0OTExMSwtMTQ4NTI1MTQwNiwtMT
-gyNTIwNzc3N119
+eyJoaXN0b3J5IjpbLTE4MjcwMjA4ODAsMTY4NzE4MzE4OCw3Nj
+M0NzA5NTUsMTAwNDUwNTE3NywxMTI0MjI1OTUsLTMxOTQ1NjUz
+NywtMTI4NTE3OTc2NSwxOTU4NDE0MzUsLTU3OTA0OTExMSwtMT
+Q4NTI1MTQwNiwtMTgyNTIwNzc3N119
 -->
