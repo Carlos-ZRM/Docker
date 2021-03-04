@@ -20,6 +20,8 @@
 # Practicas
 - 1. Desplegar contenedor python, node, java, ubuntu desde imagen base
 	- Ejecutar programas dentro de contenedores docker 
+	
+-  2. Desplegar Gitlab con docker 
 
 - Desplegar sitio web estatico con NGINX
 -  Desplegar nginx ReverseProxy para servicios
@@ -29,7 +31,6 @@
 - Desplegar contenedor MySQL/SQL lite permitiendo conexiones remotas
 	- Hacer persistente las conexiones remotas a MySQL
 
--  Desplegar Gitlab con docker 
 - Creacion de Docker file para Flask/Django
 - Creacion de Docker multistage 
 - Docker compose / Podman POD
@@ -170,9 +171,9 @@ docker-compose version
   
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ0ODU4Njc2LDEzODgwOTg4ODEsLTE0Nj
-EyMzE2MzAsMTU4NTExNDk0NCwtMTM0OTQ5Mjc1NCwxNjg3MTgz
-MTg4LDc2MzQ3MDk1NSwxMDA0NTA1MTc3LDExMjQyMjU5NSwtMz
-E5NDU2NTM3LC0xMjg1MTc5NzY1LDE5NTg0MTQzNSwtNTc5MDQ5
-MTExLC0xNDg1MjUxNDA2LC0xODI1MjA3Nzc3XX0=
+eyJoaXN0b3J5IjpbNzI4ODczNjYsMTM4ODA5ODg4MSwtMTQ2MT
+IzMTYzMCwxNTg1MTE0OTQ0LC0xMzQ5NDkyNzU0LDE2ODcxODMx
+ODgsNzYzNDcwOTU1LDEwMDQ1MDUxNzcsMTEyNDIyNTk1LC0zMT
+k0NTY1MzcsLTEyODUxNzk3NjUsMTk1ODQxNDM1LC01NzkwNDkx
+MTEsLTE0ODUyNTE0MDYsLTE4MjUyMDc3NzddfQ==
 -->
