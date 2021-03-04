@@ -32,7 +32,8 @@
 - Creacion de Docker file para Flask/Django
 - Creacion de Docker multistage 
 - Docker compose / Podman POD
-	- Conectar Django/Flask y MySQL/ 
+	- Conectar Django/Flask y MySQL/SQLite
+	- Conectar con NGINX 
 
 Docker es una plataforma para construir, compartir y desplegar aplicaciones con contenedores. 
 - Flexible
@@ -168,7 +169,7 @@ docker-compose version
   
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4Mzg1NTY4MywtMTQ2MTIzMTYzMCwxNT
+eyJoaXN0b3J5IjpbLTczNjI3NTY1NSwtMTQ2MTIzMTYzMCwxNT
 g1MTE0OTQ0LC0xMzQ5NDkyNzU0LDE2ODcxODMxODgsNzYzNDcw
 OTU1LDEwMDQ1MDUxNzcsMTEyNDIyNTk1LC0zMTk0NTY1MzcsLT
 EyODUxNzk3NjUsMTk1ODQxNDM1LC01NzkwNDkxMTEsLTE0ODUy
