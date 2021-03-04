@@ -1,6 +1,10 @@
 # Temario DevOPS
+
 # Introducción a DevOPS
+- GItlab
+- 
 # Introduccion a los contenedores
+# GCP y Cloud computing
 
 # Docker
 
@@ -138,7 +142,7 @@ docker-compose version
   
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxOTQ1NjUzNywtMTI4NTE3OTc2NSwxOT
-U4NDE0MzUsLTU3OTA0OTExMSwtMTQ4NTI1MTQwNiwtMTgyNTIw
-Nzc3N119
+eyJoaXN0b3J5IjpbMTEyNDIyNTk1LC0zMTk0NTY1MzcsLTEyOD
+UxNzk3NjUsMTk1ODQxNDM1LC01NzkwNDkxMTEsLTE0ODUyNTE0
+MDYsLTE4MjUyMDc3NzddfQ==
 -->
