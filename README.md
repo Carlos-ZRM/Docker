@@ -22,7 +22,8 @@
 -  Desplegar nginx ReverseProxy para servicios
 	- Desplegar sitio web estatico con volumenes
 	- Crear imagen personalizada de NGINX/ Instalacion manual NGINX
-
+- Desplegar contenedor python, node, java, ubuntu desde imagen base
+	-  
 -  Desplegar Gitlab con docker
 
 
@@ -160,8 +161,8 @@ docker-compose version
   
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjcwMjA4ODAsMTY4NzE4MzE4OCw3Nj
-M0NzA5NTUsMTAwNDUwNTE3NywxMTI0MjI1OTUsLTMxOTQ1NjUz
-NywtMTI4NTE3OTc2NSwxOTU4NDE0MzUsLTU3OTA0OTExMSwtMT
-Q4NTI1MTQwNiwtMTgyNTIwNzc3N119
+eyJoaXN0b3J5IjpbMTI0NDg5NTY5NCwxNjg3MTgzMTg4LDc2Mz
+Q3MDk1NSwxMDA0NTA1MTc3LDExMjQyMjU5NSwtMzE5NDU2NTM3
+LC0xMjg1MTc5NzY1LDE5NTg0MTQzNSwtNTc5MDQ5MTExLC0xND
+g1MjUxNDA2LC0xODI1MjA3Nzc3XX0=
 -->
