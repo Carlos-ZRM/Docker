@@ -23,7 +23,7 @@
 	- Desplegar sitio web estatico con volumenes
 	- Crear imagen personalizada de NGINX/ Instalacion manual NGINX
 - Desplegar contenedor python, node, java, ubuntu desde imagen base
-	-  
+	- Ejecutar programas dentro de contenedores docker 
 -  Desplegar Gitlab con docker
 
 
@@ -161,8 +161,8 @@ docker-compose version
   
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NDg5NTY5NCwxNjg3MTgzMTg4LDc2Mz
-Q3MDk1NSwxMDA0NTA1MTc3LDExMjQyMjU5NSwtMzE5NDU2NTM3
-LC0xMjg1MTc5NzY1LDE5NTg0MTQzNSwtNTc5MDQ5MTExLC0xND
-g1MjUxNDA2LC0xODI1MjA3Nzc3XX0=
+eyJoaXN0b3J5IjpbMTcxNTAxNzQ3LDE2ODcxODMxODgsNzYzND
+cwOTU1LDEwMDQ1MDUxNzcsMTEyNDIyNTk1LC0zMTk0NTY1Mzcs
+LTEyODUxNzk3NjUsMTk1ODQxNDM1LC01NzkwNDkxMTEsLTE0OD
+UyNTE0MDYsLTE4MjUyMDc3NzddfQ==
 -->
