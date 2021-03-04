@@ -29,10 +29,11 @@
 
 - 4.  Creacion de Docker multistage 
 	-  Agregar Stage
-- 5.  Desplegar sitio web estatico con NGINX
+- 5. Entrypoint (iniciar aplicaciones)
+- 6.  Desplegar sitio web estatico con NGINX
 	- Desplegar sitio webestatico  con volumenes
 
-- 6.  Desplegar nginx ReverseProxy para servicios
+- 7.  Desplegar nginx ReverseProxy para servicios
 	- Crear imagen personalizada de NGINX/ Instalacion compilada NGINX en Dockerfile
 
 - 7. Desplegar contenedor MySQL/SQL lite permitiendo conexiones remotas
@@ -41,7 +42,7 @@
 - 8. Docker compose / Podman POD
 	- Conectar Django/Flask y MySQL/SQLite
 	- Conectar con NGINX 
--  9. Entrypoint  
+-  9. Entrypoint  SINGNALS
 
 Docker es una plataforma para construir, compartir y desplegar aplicaciones con contenedores. 
 - Flexible
@@ -177,9 +178,9 @@ docker-compose version
   
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NTI3NDMzOCwxMzg4MDk4ODgxLC0xND
-YxMjMxNjMwLDE1ODUxMTQ5NDQsLTEzNDk0OTI3NTQsMTY4NzE4
-MzE4OCw3NjM0NzA5NTUsMTAwNDUwNTE3NywxMTI0MjI1OTUsLT
-MxOTQ1NjUzNywtMTI4NTE3OTc2NSwxOTU4NDE0MzUsLTU3OTA0
-OTExMSwtMTQ4NTI1MTQwNiwtMTgyNTIwNzc3N119
+eyJoaXN0b3J5IjpbODIxNTQxNjQ2LDEzODgwOTg4ODEsLTE0Nj
+EyMzE2MzAsMTU4NTExNDk0NCwtMTM0OTQ5Mjc1NCwxNjg3MTgz
+MTg4LDc2MzQ3MDk1NSwxMDA0NTA1MTc3LDExMjQyMjU5NSwtMz
+E5NDU2NTM3LC0xMjg1MTc5NzY1LDE5NTg0MTQzNSwtNTc5MDQ5
+MTExLC0xNDg1MjUxNDA2LC0xODI1MjA3Nzc3XX0=
 -->
