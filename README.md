@@ -17,7 +17,9 @@
 
 # Docker
 
-
+# Practicas
+- Desplegar sitio web estatico con NGINX
+-  Desplegar 
 
 
 Docker es una plataforma para construir, compartir y desplegar aplicaciones con contenedores. 
@@ -154,8 +156,8 @@ docker-compose version
   
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDc1MDE3NzIsMTAwNDUwNTE3NywxMT
-I0MjI1OTUsLTMxOTQ1NjUzNywtMTI4NTE3OTc2NSwxOTU4NDE0
-MzUsLTU3OTA0OTExMSwtMTQ4NTI1MTQwNiwtMTgyNTIwNzc3N1
-19
+eyJoaXN0b3J5IjpbNzYzNDcwOTU1LDEwMDQ1MDUxNzcsMTEyND
+IyNTk1LC0zMTk0NTY1MzcsLTEyODUxNzk3NjUsMTk1ODQxNDM1
+LC01NzkwNDkxMTEsLTE0ODUyNTE0MDYsLTE4MjUyMDc3NzddfQ
+==
 -->
