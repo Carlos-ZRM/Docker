@@ -19,8 +19,9 @@
 
 # Practicas
 - Desplegar sitio web estatico con NGINX
--  Desplegar 
+-  Desplegar nginx ReverseProxy para servicios
 	- Desplegar sitio web estatico con volumenes
+	- Crear imagen personalizada de NGINX/ Instalacion manual NGINX
 	- 
 -  Desplegar 
 
@@ -159,8 +160,8 @@ docker-compose version
   
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODgxMzYzMjY4LDc2MzQ3MDk1NSwxMDA0NT
-A1MTc3LDExMjQyMjU5NSwtMzE5NDU2NTM3LC0xMjg1MTc5NzY1
-LDE5NTg0MTQzNSwtNTc5MDQ5MTExLC0xNDg1MjUxNDA2LC0xOD
-I1MjA3Nzc3XX0=
+eyJoaXN0b3J5IjpbLTE5ODQxOTk5MTQsNzYzNDcwOTU1LDEwMD
+Q1MDUxNzcsMTEyNDIyNTk1LC0zMTk0NTY1MzcsLTEyODUxNzk3
+NjUsMTk1ODQxNDM1LC01NzkwNDkxMTEsLTE0ODUyNTE0MDYsLT
+E4MjUyMDc3NzddfQ==
 -->
