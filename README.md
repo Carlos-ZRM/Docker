@@ -23,12 +23,15 @@
 	- Desplegar sitio web estatico con volumenes
 	- Crear imagen personalizada de NGINX/ Instalacion manual NGINX 
 - Desplegar contenedor python, node, java, ubuntu desde imagen base
-- Desplegar contenedor MySQL/SQL lite y 
 	- Ejecutar programas dentro de contenedores docker 
+
+- Desplegar contenedor MySQL/SQL lite permitiendo conexiones remotas
+	- Hacer persistente las conexiones remotas a MySQL
+
 -  Desplegar Gitlab con docker 
 - Creacion de Docker file para Flask/Django
 - Creacion de Docker multistage 
-- 
+- Docker compose / Podman 
 
 Docker es una plataforma para construir, compartir y desplegar aplicaciones con contenedores. 
 - Flexible
@@ -164,9 +167,9 @@ docker-compose version
   
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3MTI2NjIzLC0xNDYxMjMxNjMwLDE1OD
-UxMTQ5NDQsLTEzNDk0OTI3NTQsMTY4NzE4MzE4OCw3NjM0NzA5
-NTUsMTAwNDUwNTE3NywxMTI0MjI1OTUsLTMxOTQ1NjUzNywtMT
-I4NTE3OTc2NSwxOTU4NDE0MzUsLTU3OTA0OTExMSwtMTQ4NTI1
-MTQwNiwtMTgyNTIwNzc3N119
+eyJoaXN0b3J5IjpbMTA0Nzk3NDM2NywtMTQ2MTIzMTYzMCwxNT
+g1MTE0OTQ0LC0xMzQ5NDkyNzU0LDE2ODcxODMxODgsNzYzNDcw
+OTU1LDEwMDQ1MDUxNzcsMTEyNDIyNTk1LC0zMTk0NTY1MzcsLT
+EyODUxNzk3NjUsMTk1ODQxNDM1LC01NzkwNDkxMTEsLTE0ODUy
+NTE0MDYsLTE4MjUyMDc3NzddfQ==
 -->
