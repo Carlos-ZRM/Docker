@@ -13,5 +13,5 @@ WORKDIR /home/udpserver
 RUN chmod 777 /home/udpserver
 EXPOSE 9999/udp
 
-CMD nc -k -u -l 9999
+ENTRYPOINT nc -u -l 9999
 
