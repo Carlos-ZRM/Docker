@@ -12,6 +12,6 @@ WORKDIR /home/udpserver
 
 RUN chmod 777 /home/udpserver
 EXPOSE 9999/udp
-
-ENTRYPOINT nc -u -l 9999
+COPY server.py .
+ENTRYPOINT python3  server.py
 
