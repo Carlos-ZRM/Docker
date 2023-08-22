@@ -1,5 +1,10 @@
 import socket
 import struct
+import logging
+
+
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+logger = logging.getLogger(__name__)
 
 
 # Set up the server
@@ -12,7 +17,8 @@ server_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 # Bind the socket to the IP and port
 server_socket.bind((UDP_IP, UDP_PORT))
 
-print("UDP server listening on {}:{}".format(UDP_IP, UDP_PORT))
+
+logger.info("UDP server listening on %s:%d", UDP_IP, UDP_PORT)
 
 # Start listening for incoming messages
 while True:
@@ -23,7 +29,7 @@ while True:
 
     print("Received data from {}: size {}: msg {} ".format(addr, length, data.decode()))
 
-
+    logger.info("Received data from %s: data :%s %s", addr, length, data.decode()  )
     response_message = "Received data from {}:{}".format(addr[0], addr[1])
 
         # Send the response back to the client
